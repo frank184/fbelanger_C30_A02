@@ -13,7 +13,7 @@ var log = require('log');
 // Paths
 var public_folder = path.join(__dirname, "public");
 var validExtensions = [ ".html", ".css", ".js", ".png", ".jpg", ".gif", ".xml", ".txt", ".ico", ".json" ];
-var validDataObject = ["/users"];
+var validDataObject = [path.join("users")];
 
 // HTTP Server
 var port = 9000;
@@ -24,20 +24,22 @@ var app = http.createServer(function(request, response) {
 	var file = path.basename(url) || "index.html";
 	var ext = path.extname(file) || ".html";
   var path_to_file = path.join(public_folder, dir, file);
-  log(" [+] " + request.method + " from " + request.connection.remoteAddress + " for " + path_to_file);
+  log(" [+] " + request.method + " " + path_to_file + " for " + request.connection.remoteAddress);
 
   // GET requests
   if (request.method == "GET") {
     if (validExtensions.indexOf(ext) == -1) {
       errors(406, request, response);
     } else {
-      if (validDataObject.indexOf(dir) == -1 || validDataObject.indexOf(file) == -1) {
+      if (validDataObject.indexOf(dir) == -1) {
         fs.exists(path_to_file, function(exists) {
           if (!exists) {
+            log(" [-] 404 - Could not find " + path_to_file + " for " + request.connection.remoteAddress);
             errors(404, request, response);
           } else {
             fs.readFile(path_to_file, function(err, data) {
               if (err) {
+                log(" [-] 500 - Could not read " + path_to_file + " for " + request.connection.remoteAddress);
                 errors(500, request, response);
               } else {
                 response.end(data);
@@ -46,9 +48,9 @@ var app = http.createServer(function(request, response) {
           }
         });
       } else {
-        // var object = path.basename(dir);
-        // var id = path_to_file.split("/")[2];
-        // response.end(id);
+        var object = path.basename(dir);
+        var id = path_to_file.split("/")[2];
+        response.end(id);
       }
     }
   }

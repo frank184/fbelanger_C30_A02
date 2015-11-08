@@ -1,35 +1,128 @@
-[2015-11-07 23:43:50] [*] Server started on http://localhost:9000
-[2015-11-07 23:43:53] [+] GET from 127.0.0.1 for /home/ne0h/Dropbox/Web/fbelanger_C30_A02/public/index.html
-[2015-11-07 23:43:53] [+] GET from 127.0.0.1 for /home/ne0h/Dropbox/Web/fbelanger_C30_A02/public/index.html
-[2015-11-07 23:43:54] [+] GET from 127.0.0.1 for /home/ne0h/Dropbox/Web/fbelanger_C30_A02/public/index.html
-[2015-11-07 23:43:55] [+] GET from 127.0.0.1 for /home/ne0h/Dropbox/Web/fbelanger_C30_A02/public/index.html
-[2015-11-07 23:45:04] [+] GET from 127.0.0.1 for /home/ne0h/Dropbox/Web/fbelanger_C30_A02/public/index.html
-[2015-11-07 23:45:06] [+] GET from 127.0.0.1 for /home/ne0h/Dropbox/Web/fbelanger_C30_A02/public/index.html
-[2015-11-07 23:45:07] [+] GET from 127.0.0.1 for /home/ne0h/Dropbox/Web/fbelanger_C30_A02/public/index.html
-[2015-11-07 23:49:07] [*] Server started on http://localhost:9000
-[2015-11-07 23:49:12] [+] GET from 127.0.0.1 for /home/ne0h/Dropbox/Web/fbelanger_C30_A02/public/index.html
-[2015-11-07 23:49:15] [+] GET from 127.0.0.1 for /home/ne0h/Dropbox/Web/fbelanger_C30_A02/public/users/1
-[2015-11-07 23:49:15] [+] GET from 127.0.0.1 for /home/ne0h/Dropbox/Web/fbelanger_C30_A02/public/errors/404.html
-[2015-11-07 23:49:34] [*] Server started on http://localhost:9000
-[2015-11-07 23:49:36] [+] GET from 127.0.0.1 for /home/ne0h/Dropbox/Web/fbelanger_C30_A02/public/users/1
-[2015-11-07 23:50:10] [+] GET from 127.0.0.1 for /home/ne0h/Dropbox/Web/fbelanger_C30_A02/public/users/1
-[2015-11-07 23:50:11] [+] GET from 127.0.0.1 for /home/ne0h/Dropbox/Web/fbelanger_C30_A02/public/users/1
-[2015-11-07 23:50:13] [*] Server started on http://localhost:9000
-[2015-11-07 23:50:14] [+] GET from 127.0.0.1 for /home/ne0h/Dropbox/Web/fbelanger_C30_A02/public/users/1
-[2015-11-07 23:52:05] [+] GET from 127.0.0.1 for /home/ne0h/Dropbox/Web/fbelanger_C30_A02/public/users
-[2015-11-07 23:52:05] [+] GET from 127.0.0.1 for /home/ne0h/Dropbox/Web/fbelanger_C30_A02/public/errors/500.html
-[2015-11-07 23:52:16] [+] GET from 127.0.0.1 for /home/ne0h/Dropbox/Web/fbelanger_C30_A02/public/users
-[2015-11-07 23:52:16] [+] GET from 127.0.0.1 for /home/ne0h/Dropbox/Web/fbelanger_C30_A02/public/errors/500.html
-[2015-11-07 23:52:36] [+] GET from 127.0.0.1 for /home/ne0h/Dropbox/Web/fbelanger_C30_A02/public/users
-[2015-11-07 23:52:36] [+] GET from 127.0.0.1 for /home/ne0h/Dropbox/Web/fbelanger_C30_A02/public/errors/500.html
-[2015-11-07 23:53:43] [*] Server started on http://localhost:9000
-[2015-11-07 23:53:44] [+] GET from 127.0.0.1 for /home/ne0h/Dropbox/Web/fbelanger_C30_A02/public/users
-[2015-11-07 23:53:44] [+] GET from 127.0.0.1 for /home/ne0h/Dropbox/Web/fbelanger_C30_A02/public/errors/500.html
-[2015-11-08 00:02:48] [*] Server started on http://localhost:9000
-[2015-11-08 00:02:51] [+] GET from 127.0.0.1 for /home/ne0h/Dropbox/Web/fbelanger_C30_A02/public/users
-[2015-11-08 00:02:51] [+] GET from 127.0.0.1 for /home/ne0h/Dropbox/Web/fbelanger_C30_A02/public/errors/500.html
-[2015-11-08 00:03:11] [+] GET from 127.0.0.1 for /home/ne0h/Dropbox/Web/fbelanger_C30_A02/public/users
-[2015-11-08 00:03:11] [+] GET from 127.0.0.1 for /home/ne0h/Dropbox/Web/fbelanger_C30_A02/public/errors/500.html
-[2015-11-08 00:03:12] [*] Server started on http://localhost:9000
-[2015-11-08 00:03:14] [+] GET from 127.0.0.1 for /home/ne0h/Dropbox/Web/fbelanger_C30_A02/public/users
-[2015-11-08 00:03:14] [+] GET from 127.0.0.1 for /home/ne0h/Dropbox/Web/fbelanger_C30_A02/public/errors/500.html
+[2015-11-08 00:14:24] [*] Server started on http://localhost:9000
+[2015-11-08 00:14:26] [+] GET /home/ne0h/Dropbox/Web/fbelanger_C30_A02/public/users/1 for 127.0.0.1
+[2015-11-08 00:14:26] [-] Could not GET /home/ne0h/Dropbox/Web/fbelanger_C30_A02/public/users/1 for 127.0.0.1
+[2015-11-08 00:14:26] [+] GET from 127.0.0.1 for /home/ne0h/Dropbox/Web/fbelanger_C30_A02/public/errors/404.html
+[2015-11-08 00:15:23] [*] Server started on http://localhost:9000
+[2015-11-08 00:15:24] [+] GET /home/ne0h/Dropbox/Web/fbelanger_C30_A02/public/users/1 for 127.0.0.1
+[2015-11-08 00:15:24] [-] 404 - Failed to GET /home/ne0h/Dropbox/Web/fbelanger_C30_A02/public/users/1 for 127.0.0.1
+[2015-11-08 00:15:25] [+] GET from 127.0.0.1 for /home/ne0h/Dropbox/Web/fbelanger_C30_A02/public/errors/404.html
+[2015-11-08 00:16:53] [*] Server started on http://localhost:9000
+[2015-11-08 00:16:54] [+] GET /home/ne0h/Dropbox/Web/fbelanger_C30_A02/public/users/1 for 127.0.0.1
+[2015-11-08 00:16:54] [-] GET 404 - Could not find /home/ne0h/Dropbox/Web/fbelanger_C30_A02/public/users/1 for 127.0.0.1
+[2015-11-08 00:16:54] [+] GET from 127.0.0.1 for /home/ne0h/Dropbox/Web/fbelanger_C30_A02/public/errors/404.html
+[2015-11-08 00:16:55] [+] GET /home/ne0h/Dropbox/Web/fbelanger_C30_A02/public/users/1 for 127.0.0.1
+[2015-11-08 00:16:55] [-] GET 404 - Could not find /home/ne0h/Dropbox/Web/fbelanger_C30_A02/public/users/1 for 127.0.0.1
+[2015-11-08 00:16:55] [+] GET from 127.0.0.1 for /home/ne0h/Dropbox/Web/fbelanger_C30_A02/public/errors/404.html
+[2015-11-08 00:16:56] [+] GET /home/ne0h/Dropbox/Web/fbelanger_C30_A02/public/users/1 for 127.0.0.1
+[2015-11-08 00:16:56] [-] GET 404 - Could not find /home/ne0h/Dropbox/Web/fbelanger_C30_A02/public/users/1 for 127.0.0.1
+[2015-11-08 00:16:56] [+] GET from 127.0.0.1 for /home/ne0h/Dropbox/Web/fbelanger_C30_A02/public/errors/404.html
+[2015-11-08 00:16:56] [+] GET /home/ne0h/Dropbox/Web/fbelanger_C30_A02/public/users/1 for 127.0.0.1
+[2015-11-08 00:16:56] [-] GET 404 - Could not find /home/ne0h/Dropbox/Web/fbelanger_C30_A02/public/users/1 for 127.0.0.1
+[2015-11-08 00:16:56] [+] GET from 127.0.0.1 for /home/ne0h/Dropbox/Web/fbelanger_C30_A02/public/errors/404.html
+[2015-11-08 00:16:56] [+] GET /home/ne0h/Dropbox/Web/fbelanger_C30_A02/public/users/1 for 127.0.0.1
+[2015-11-08 00:16:56] [-] GET 404 - Could not find /home/ne0h/Dropbox/Web/fbelanger_C30_A02/public/users/1 for 127.0.0.1
+[2015-11-08 00:16:56] [+] GET from 127.0.0.1 for /home/ne0h/Dropbox/Web/fbelanger_C30_A02/public/errors/404.html
+[2015-11-08 00:16:56] [+] GET /home/ne0h/Dropbox/Web/fbelanger_C30_A02/public/users/1 for 127.0.0.1
+[2015-11-08 00:16:56] [-] GET 404 - Could not find /home/ne0h/Dropbox/Web/fbelanger_C30_A02/public/users/1 for 127.0.0.1
+[2015-11-08 00:16:56] [+] GET from 127.0.0.1 for /home/ne0h/Dropbox/Web/fbelanger_C30_A02/public/errors/404.html
+[2015-11-08 00:16:56] [+] GET /home/ne0h/Dropbox/Web/fbelanger_C30_A02/public/users/1 for 127.0.0.1
+[2015-11-08 00:16:56] [-] GET 404 - Could not find /home/ne0h/Dropbox/Web/fbelanger_C30_A02/public/users/1 for 127.0.0.1
+[2015-11-08 00:16:56] [+] GET from 127.0.0.1 for /home/ne0h/Dropbox/Web/fbelanger_C30_A02/public/errors/404.html
+[2015-11-08 00:16:56] [+] GET /home/ne0h/Dropbox/Web/fbelanger_C30_A02/public/users/1 for 127.0.0.1
+[2015-11-08 00:16:56] [-] GET 404 - Could not find /home/ne0h/Dropbox/Web/fbelanger_C30_A02/public/users/1 for 127.0.0.1
+[2015-11-08 00:16:56] [+] GET from 127.0.0.1 for /home/ne0h/Dropbox/Web/fbelanger_C30_A02/public/errors/404.html
+[2015-11-08 00:17:12] [+] GET /home/ne0h/Dropbox/Web/fbelanger_C30_A02/public/users for 127.0.0.1
+[2015-11-08 00:17:12] [-] GET 500 - Could not read /home/ne0h/Dropbox/Web/fbelanger_C30_A02/public/users for 127.0.0.1
+[2015-11-08 00:17:12] [+] GET from 127.0.0.1 for /home/ne0h/Dropbox/Web/fbelanger_C30_A02/public/errors/500.html
+[2015-11-08 00:17:56] [+] GET /home/ne0h/Dropbox/Web/fbelanger_C30_A02/public/users for 127.0.0.1
+[2015-11-08 00:17:56] [-] GET 500 - Could not read /home/ne0h/Dropbox/Web/fbelanger_C30_A02/public/users for 127.0.0.1
+[2015-11-08 00:17:56] [+] GET from 127.0.0.1 for /home/ne0h/Dropbox/Web/fbelanger_C30_A02/public/errors/500.html
+[2015-11-08 00:17:59] [*] Server started on http://localhost:9000
+[2015-11-08 00:18:01] [+] GET /home/ne0h/Dropbox/Web/fbelanger_C30_A02/public/users for 127.0.0.1
+[2015-11-08 00:18:01] [-] GET 500 - Could not read /home/ne0h/Dropbox/Web/fbelanger_C30_A02/public/users for 127.0.0.1
+[2015-11-08 00:18:01] [+] GET from 127.0.0.1 for /home/ne0h/Dropbox/Web/fbelanger_C30_A02/public/errors/500.html
+[2015-11-08 00:18:01] [+] GET /home/ne0h/Dropbox/Web/fbelanger_C30_A02/public/users for 127.0.0.1
+[2015-11-08 00:18:01] [-] GET 500 - Could not read /home/ne0h/Dropbox/Web/fbelanger_C30_A02/public/users for 127.0.0.1
+[2015-11-08 00:18:01] [+] GET from 127.0.0.1 for /home/ne0h/Dropbox/Web/fbelanger_C30_A02/public/errors/500.html
+[2015-11-08 00:18:03] [+] GET /home/ne0h/Dropbox/Web/fbelanger_C30_A02/public/users for 127.0.0.1
+[2015-11-08 00:18:03] [-] GET 500 - Could not read /home/ne0h/Dropbox/Web/fbelanger_C30_A02/public/users for 127.0.0.1
+[2015-11-08 00:18:03] [+] GET from 127.0.0.1 for /home/ne0h/Dropbox/Web/fbelanger_C30_A02/public/errors/500.html
+[2015-11-08 00:23:09] [*] Server started on http://localhost:9000
+[2015-11-08 00:23:11] [+] GET /home/ne0h/Dropbox/Web/fbelanger_C30_A02/public/users for 127.0.0.1
+[2015-11-08 00:23:11] [-] GET 500 - Could not read /home/ne0h/Dropbox/Web/fbelanger_C30_A02/public/users for 127.0.0.1
+[2015-11-08 00:23:11] [+] GET from 127.0.0.1 for /home/ne0h/Dropbox/Web/fbelanger_C30_A02/public/errors/500.html
+[2015-11-08 00:23:25] [*] Server started on http://localhost:9000
+[2015-11-08 00:23:26] [+] GET /home/ne0h/Dropbox/Web/fbelanger_C30_A02/public/users for 127.0.0.1
+[2015-11-08 00:23:26] [-] GET 500 - Could not read /home/ne0h/Dropbox/Web/fbelanger_C30_A02/public/users for 127.0.0.1
+[2015-11-08 00:23:26] [+] GET from 127.0.0.1 for /home/ne0h/Dropbox/Web/fbelanger_C30_A02/public/errors/500.html
+[2015-11-08 00:23:47] [*] Server started on http://localhost:9000
+[2015-11-08 00:23:49] [+] GET /home/ne0h/Dropbox/Web/fbelanger_C30_A02/public/users for 127.0.0.1
+[2015-11-08 00:23:49] [-] GET 500 - Could not read /home/ne0h/Dropbox/Web/fbelanger_C30_A02/public/users for 127.0.0.1
+[2015-11-08 00:23:49] [+] GET from 127.0.0.1 for /home/ne0h/Dropbox/Web/fbelanger_C30_A02/public/errors/500.html
+[2015-11-08 00:24:15] [*] Server started on http://localhost:9000
+[2015-11-08 00:24:16] [+] GET /home/ne0h/Dropbox/Web/fbelanger_C30_A02/public/users for 127.0.0.1
+[2015-11-08 00:24:16] [-] GET 500 - Could not read /home/ne0h/Dropbox/Web/fbelanger_C30_A02/public/users for 127.0.0.1
+[2015-11-08 00:24:16] [+] GET from 127.0.0.1 for /home/ne0h/Dropbox/Web/fbelanger_C30_A02/public/errors/500.html
+[2015-11-08 00:28:12] [+] GET /home/ne0h/Dropbox/Web/fbelanger_C30_A02/public/users for 127.0.0.1
+[2015-11-08 00:28:12] [-] GET 500 - Could not read /home/ne0h/Dropbox/Web/fbelanger_C30_A02/public/users for 127.0.0.1
+[2015-11-08 00:28:12] [+] GET from 127.0.0.1 for /home/ne0h/Dropbox/Web/fbelanger_C30_A02/public/errors/500.html
+[2015-11-08 00:29:42] [*] Server started on http://localhost:9000
+[2015-11-08 00:29:43] [+] GET /home/ne0h/Dropbox/Web/fbelanger_C30_A02/public/users for 127.0.0.1
+[2015-11-08 00:29:43] [-] GET 500 - Could not read /home/ne0h/Dropbox/Web/fbelanger_C30_A02/public/users for 127.0.0.1
+[2015-11-08 00:29:43] [+] GET from 127.0.0.1 for /home/ne0h/Dropbox/Web/fbelanger_C30_A02/public/errors/500.html
+[2015-11-08 01:09:43] [+] GET /home/ne0h/Dropbox/Web/fbelanger_C30_A02/public/users for 127.0.0.1
+[2015-11-08 01:09:43] [-] GET 500 - Could not read /home/ne0h/Dropbox/Web/fbelanger_C30_A02/public/users for 127.0.0.1
+[2015-11-08 01:09:43] [+] GET from 127.0.0.1 for /home/ne0h/Dropbox/Web/fbelanger_C30_A02/public/errors/500.html
+[2015-11-08 01:10:48] [*] Server started on http://localhost:9000
+[2015-11-08 01:10:50] [+] GET /home/ne0h/Dropbox/Web/fbelanger_C30_A02/public/users for 127.0.0.1
+[2015-11-08 01:10:50] [-] GET 500 - Could not read /home/ne0h/Dropbox/Web/fbelanger_C30_A02/public/users for 127.0.0.1
+[2015-11-08 01:10:50] [+] GET from 127.0.0.1 for /home/ne0h/Dropbox/Web/fbelanger_C30_A02/public/errors/500.html
+[2015-11-08 01:10:52] [+] GET /home/ne0h/Dropbox/Web/fbelanger_C30_A02/public/users for 127.0.0.1
+[2015-11-08 01:10:52] [-] GET 500 - Could not read /home/ne0h/Dropbox/Web/fbelanger_C30_A02/public/users for 127.0.0.1
+[2015-11-08 01:10:52] [+] GET from 127.0.0.1 for /home/ne0h/Dropbox/Web/fbelanger_C30_A02/public/errors/500.html
+[2015-11-08 01:49:08] [+] GET /home/ne0h/Dropbox/Web/fbelanger_C30_A02/public/users for 127.0.0.1
+[2015-11-08 01:49:08] [-] GET 500 - Could not read /home/ne0h/Dropbox/Web/fbelanger_C30_A02/public/users for 127.0.0.1
+[2015-11-08 01:49:08] [+] GET from 127.0.0.1 for /home/ne0h/Dropbox/Web/fbelanger_C30_A02/public/errors/500.html
+[2015-11-08 01:49:12] [+] GET /home/ne0h/Dropbox/Web/fbelanger_C30_A02/public/users for 127.0.0.1
+[2015-11-08 01:49:12] [-] GET 500 - Could not read /home/ne0h/Dropbox/Web/fbelanger_C30_A02/public/users for 127.0.0.1
+[2015-11-08 01:49:12] [+] GET from 127.0.0.1 for /home/ne0h/Dropbox/Web/fbelanger_C30_A02/public/errors/500.html
+[2015-11-08 01:50:46] [+] GET /home/ne0h/Dropbox/Web/fbelanger_C30_A02/public/users for 127.0.0.1
+[2015-11-08 01:50:46] [-] GET 500 - Could not read /home/ne0h/Dropbox/Web/fbelanger_C30_A02/public/users for 127.0.0.1
+[2015-11-08 01:50:46] [+] GET from 127.0.0.1 for /home/ne0h/Dropbox/Web/fbelanger_C30_A02/public/errors/500.html
+[2015-11-08 01:50:56] [+] GET /home/ne0h/Dropbox/Web/fbelanger_C30_A02/public/users for 127.0.0.1
+[2015-11-08 01:50:56] [-] GET 500 - Could not read /home/ne0h/Dropbox/Web/fbelanger_C30_A02/public/users for 127.0.0.1
+[2015-11-08 01:50:56] [+] GET from 127.0.0.1 for /home/ne0h/Dropbox/Web/fbelanger_C30_A02/public/errors/500.html
+[2015-11-08 01:55:00] [*] Server started on http://localhost:9000
+[2015-11-08 01:55:01] [+] GET /home/ne0h/Dropbox/Web/fbelanger_C30_A02/public/users for 127.0.0.1
+[2015-11-08 01:55:01] [-] GET 500 - Could not read /home/ne0h/Dropbox/Web/fbelanger_C30_A02/public/users for 127.0.0.1
+[2015-11-08 01:55:01] [+] GET from 127.0.0.1 for /home/ne0h/Dropbox/Web/fbelanger_C30_A02/public/errors/500.html
+[2015-11-08 01:55:52] [+] GET /home/ne0h/Dropbox/Web/fbelanger_C30_A02/public/users for 127.0.0.1
+[2015-11-08 01:55:52] [-] GET 500 - Could not read /home/ne0h/Dropbox/Web/fbelanger_C30_A02/public/users for 127.0.0.1
+[2015-11-08 01:55:52] [+] GET from 127.0.0.1 for /home/ne0h/Dropbox/Web/fbelanger_C30_A02/public/errors/500.html
+[2015-11-08 01:55:55] [*] Server started on http://localhost:9000
+[2015-11-08 01:55:56] [+] GET /home/ne0h/Dropbox/Web/fbelanger_C30_A02/public/users for 127.0.0.1
+[2015-11-08 01:55:56] [-] GET 500 - Could not read /home/ne0h/Dropbox/Web/fbelanger_C30_A02/public/users for 127.0.0.1
+[2015-11-08 01:55:56] [+] GET from 127.0.0.1 for /home/ne0h/Dropbox/Web/fbelanger_C30_A02/public/errors/500.html
+[2015-11-08 01:59:15] [+] GET /home/ne0h/Dropbox/Web/fbelanger_C30_A02/public/users for 127.0.0.1
+[2015-11-08 01:59:15] [-] GET 500 - Could not read /home/ne0h/Dropbox/Web/fbelanger_C30_A02/public/users for 127.0.0.1
+[2015-11-08 01:59:15] [+] GET from 127.0.0.1 for /home/ne0h/Dropbox/Web/fbelanger_C30_A02/public/errors/500.html
+[2015-11-08 01:59:18] [*] Server started on http://localhost:9000
+[2015-11-08 01:59:19] [+] GET /home/ne0h/Dropbox/Web/fbelanger_C30_A02/public/users for 127.0.0.1
+[2015-11-08 01:59:19] [-] GET 500 - Could not read /home/ne0h/Dropbox/Web/fbelanger_C30_A02/public/users for 127.0.0.1
+[2015-11-08 01:59:19] [+] GET from 127.0.0.1 for /home/ne0h/Dropbox/Web/fbelanger_C30_A02/public/errors/500.html
+[2015-11-08 02:00:22] [*] Server started on http://localhost:9000
+[2015-11-08 02:00:24] [+] GET /home/ne0h/Dropbox/Web/fbelanger_C30_A02/public/users for 127.0.0.1
+[2015-11-08 02:00:24] [-] GET 500 - Could not read /home/ne0h/Dropbox/Web/fbelanger_C30_A02/public/users for 127.0.0.1
+[2015-11-08 02:00:24] [+] GET from 127.0.0.1 for /home/ne0h/Dropbox/Web/fbelanger_C30_A02/public/errors/500.html
+[2015-11-08 02:00:57] [*] Server started on http://localhost:9000
+[2015-11-08 02:00:59] [+] GET /home/ne0h/Dropbox/Web/fbelanger_C30_A02/public/users for 127.0.0.1
+[2015-11-08 02:00:59] [-] GET 500 - Could not read /home/ne0h/Dropbox/Web/fbelanger_C30_A02/public/users for 127.0.0.1
+[2015-11-08 02:00:59] [+] GET from 127.0.0.1 for /home/ne0h/Dropbox/Web/fbelanger_C30_A02/public/errors/500.html
+[2015-11-08 03:15:46] [*] Server started on http://localhost:9000
+[2015-11-08 03:15:47] [+] GET /home/ne0h/Dropbox/Web/fbelanger_C30_A02/public/users for 127.0.0.1
+[2015-11-08 03:15:47] [-] GET 500 - Could not read /home/ne0h/Dropbox/Web/fbelanger_C30_A02/public/users for 127.0.0.1
+[2015-11-08 03:15:48] [+] GET from 127.0.0.1 for /home/ne0h/Dropbox/Web/fbelanger_C30_A02/public/errors/500.html
+[2015-11-08 03:31:29] [*] Server started on http://localhost:9000
+[2015-11-08 03:31:32] [+] GET /home/ne0h/Dropbox/Web/fbelanger_C30_A02/public/users for 127.0.0.1
+[2015-11-08 03:31:32] [-] 500 - Could not read /home/ne0h/Dropbox/Web/fbelanger_C30_A02/public/users for 127.0.0.1
+[2015-11-08 03:31:32] [+] GET from 127.0.0.1 for /home/ne0h/Dropbox/Web/fbelanger_C30_A02/public/errors/500.html
