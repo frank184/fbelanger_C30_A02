@@ -16,7 +16,7 @@ var statusCodes = {
   "500": "Internal Error",
   "520": "Unknown Error"
 }
-module.exports = function(statusCode, request, response) {
+module.exports = function(statusCode, path_to_file, request, response) {
   response.writeHead(statusCode);
   log(" [-] " + statusCode + " - " + statusCodes[statusCode] + " " + path_to_file + " for " + request.connection.remoteAddress);
   path_to_file = path.join(errors_folder, statusCode + ".html");
