@@ -3,13 +3,9 @@ var readline = require('readline');
 var path = require('path');
 var fs = require('fs');
 
-// Custom Modules
-var timestamp = require('timestamp');
-var log = require('log');
-
 // Paths
-var users_file = path.join(__dirname, "..", "..", "data", "users", "users.txt");
-var nextID_file = path.join(__dirname, "..", "..", "data", "users", "nextID.txt");
+var users_file = path.join(__dirname, "..", "..", "db", "users", "users.txt");
+var nextID_file = path.join(__dirname, "..", "..", "db", "users", "nextID.txt");
 
 // User object
 function User(data) {
@@ -22,9 +18,9 @@ function User(data) {
 
   // user.create({emailAddress: "user@mail.com"})
   if (arguments[0] != undefined) {
-    if (typeof arguments[0] == "object") {
+    if (arguments[0].constructor == Object) {
       for (key in arguments[0])
-        if (key != "id")
+        if (key != "id") // please don't play with ids
           if (this.hasOwnProperty(key))
             this[key] = arguments[0][key]
     } else {
@@ -95,25 +91,24 @@ User.prototype.equals = function(user) {
 // Exports
 module.exports = {
   // CRUD User actions
-  // TODO imcomplete methods
+  // TODO:
+  // Imcomplete methods, implement emitters for async completed and better new, create.
+  // Refactor find and findSync to not use all, allSync and all, allSync should return an array.
   new: function(callback) {
     return new User();
   },
   create: function(data) {
     var user = new User(data);
-    // Synchronously to capture id if using a db
+    // Synchronously to capture id
     fs.readFileSync(nextID_file, function(err, data) {
       if (err) throw err;
       user.id = parseInt(data);
-      // Asynchronously because no sees this part
+      // Asynchronously because we can
       fs.appendFile(users_file, user + "\n", function(err) {
         if (err) throw err;
-        log(timestamp() + " [*] Created user: " + user);
-
         var nextID = user.id + 1;
         fs.writeFile(nextID_file, nextID, function(err, data) {
           if (err) throw err;
-          log(timestamp() + " [*] Updated nextID.txt to " + nextID);
         });
       });
     });
@@ -129,7 +124,6 @@ module.exports = {
   findSync: function(id, callback) {
     if (isNaN(id)) throw new Error("id must be an Integer");
     var users = this.allSync();
-    console.log(this.allSync())
     var user = users[parseInt(id)];
     if (callback) callback(user);
     return user;

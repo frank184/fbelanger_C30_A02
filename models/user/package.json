@@ -1,11 +1,11 @@
 {
-  "name": "errors",
+  "name": "user",
   "version": "0.0.0",
   "description": "",
-  "main": "errors.js",
+  "main": "user.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "",
+  "author": "fbelanger",
   "license": "BSD-2-Clause"
 }

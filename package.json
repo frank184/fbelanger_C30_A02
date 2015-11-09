@@ -1,11 +1,11 @@
 {
-  "name": "fbelanger_c30_a02",
+  "name": "native_node_mvc",
   "version": "1.0.0",
   "main": "app.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "",
+  "author": "fbelanger",
   "license": "ISC",
   "description": "",
   "dependencies": {
