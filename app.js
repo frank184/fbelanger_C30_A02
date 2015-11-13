@@ -10,20 +10,21 @@ var router = require('./router');
 // Controllers
 var users_controller = require('./controllers/users_controller');
 
-// Sortta Restful Routing, should be it's own file
-router.extensions([ ".html", ".css", ".js", ".png", ".jpg", ".gif", ".xml", ".txt", ".ico" ]);
+// Paths
+var public_folder = path.join(__dirname, "..", "public");
 
-// url: "/"
-router.set("/", function(request, response) {
-  fs.readFile(path.join(__dirname, "public", "index.html"), function(err, data) {
-    if (err) throw err;
-    response.end(data);
+// Valid extensions under public for file serving
+router.extensions(".html", ".css", ".js", ".png", ".jpg", ".gif", ".xml", ".txt", ".ico");
+
+// Routes
+router.set("GET", "/", function(request, response) {
+  fs.exists(public_folder, "index.html", function(exists) {
+    if (!exists) error(404, path_to_file, request, response);
+    else fs.readFile(path_to_file, function(err, data) {
+        if (err) error(500, path_to_file, request, response);
+        else response.end(data);
+      });
   });
-});
-
-// url: "/users"
-router.set(/^(\/users)/, function(request, response) {
-  users_controller(request, response);
 });
 
 // HTTP Server

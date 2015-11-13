@@ -93,7 +93,7 @@ module.exports = {
   // CRUD User actions
   // TODO:
   // Imcomplete methods, implement emitters for async completed and better new, create.
-  // Refactor find and findSync to not use all, allSync and all, allSync should return an array.
+  // Refactor find/findSync to not use all/allSync and all/allSync should return an array.
   new: function(callback) {
     return new User();
   },

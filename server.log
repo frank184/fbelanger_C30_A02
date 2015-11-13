@@ -1,110 +1,40 @@
-[2015-11-09 00:25:26] [+] GET undefined for 127.0.0.1
-[2015-11-09 00:25:26] [-] 404 /home/ne0h/Dropbox/Web/fbelanger_C30_A02/app/public/ for 127.0.0.1
-[2015-11-09 00:25:32] [+] GET undefined for 127.0.0.1
-[2015-11-09 00:25:32] [-] 404 /home/ne0h/Dropbox/Web/fbelanger_C30_A02/app/public/ for 127.0.0.1
-[2015-11-09 00:25:33] [+] GET undefined for 127.0.0.1
-[2015-11-09 00:25:33] [-] 404 /home/ne0h/Dropbox/Web/fbelanger_C30_A02/app/public/ for 127.0.0.1
-[2015-11-09 00:42:47] [*] Server started on http://localhost:9000
-[2015-11-09 00:43:07] [*] Server started on http://localhost:9000
-[2015-11-09 00:43:33] [*] Server started on http://localhost:9000
-[2015-11-09 00:43:53] [*] Server started on http://localhost:9000
-[2015-11-09 00:43:54] [+] GET /home/ne0h/Dropbox/Web/fbelanger_C30_A02/app/public/newpath/evenmore/TestPath.html for 127.0.0.1
-[2015-11-09 00:43:54] [-] 404 /home/ne0h/Dropbox/Web/fbelanger_C30_A02/app/public/newpath/evenmore/TestPath.html for 127.0.0.1
-[2015-11-09 00:43:54] [+] GET from 127.0.0.1 for /home/ne0h/Dropbox/Web/fbelanger_C30_A02/app/public/errors/404.html
-[2015-11-09 00:44:06] [+] GET /home/ne0h/Dropbox/Web/fbelanger_C30_A02/app/public/ for 127.0.0.1
-[2015-11-09 00:44:06] [-] 404 /home/ne0h/Dropbox/Web/fbelanger_C30_A02/app/public/ for 127.0.0.1
-[2015-11-09 00:44:06] [+] GET from 127.0.0.1 for /home/ne0h/Dropbox/Web/fbelanger_C30_A02/app/public/errors/404.html
-[2015-11-09 00:50:58] [*] Server started on http://localhost:9000
-[2015-11-09 00:50:59] [+] GET /home/ne0h/Dropbox/Web/fbelanger_C30_A02/app/public/ for 127.0.0.1
-[2015-11-09 00:50:59] [-] 404 /home/ne0h/Dropbox/Web/fbelanger_C30_A02/app/public/ for 127.0.0.1
-[2015-11-09 00:50:59] [+] GET from 127.0.0.1 for /home/ne0h/Dropbox/Web/fbelanger_C30_A02/app/public/errors/404.html
-[2015-11-09 00:58:06] [*] Server started on http://localhost:9000
-[2015-11-09 00:58:08] [+] GET /home/ne0h/Dropbox/Web/fbelanger_C30_A02/app/public/ for 127.0.0.1
-[2015-11-09 00:58:08] [-] 404 /home/ne0h/Dropbox/Web/fbelanger_C30_A02/app/public/ for 127.0.0.1
-[2015-11-09 00:58:08] [+] GET from 127.0.0.1 for /home/ne0h/Dropbox/Web/fbelanger_C30_A02/app/public/errors/404.html
-[2015-11-09 01:00:07] [*] Server started on http://localhost:9000
-[2015-11-09 01:00:09] [+] GET /home/ne0h/Dropbox/Web/fbelanger_C30_A02/app/public/ for 127.0.0.1
-[2015-11-09 01:00:09] [-] 404 /home/ne0h/Dropbox/Web/fbelanger_C30_A02/app/public/ for 127.0.0.1
-[2015-11-09 01:00:09] [+] GET from 127.0.0.1 for /home/ne0h/Dropbox/Web/fbelanger_C30_A02/app/public/errors/404.html
-[2015-11-09 01:18:48] [*] Server started on http://localhost:9000
-[2015-11-09 05:44:11] [*] Server started on http://localhost:9000
-[2015-11-09 05:47:32] [*] Server started on http://localhost:9000
-[2015-11-09 05:51:35] [*] Server started on http://localhost:9000
-[2015-11-09 06:08:55] [*] Server started on http://localhost:9000
-[2015-11-09 07:39:34] [*] Server started on http://localhost:9000
-[2015-11-09 07:41:13] [*] Server started on http://localhost:9000
-[2015-11-09 07:41:26] [*] Server started on http://localhost:9000
-[2015-11-09 07:44:37] [*] Server started on http://localhost:9000
-[2015-11-09 07:44:56] [*] Server started on http://localhost:9000
-[2015-11-09 07:45:43] [*] Server started on http://localhost:9000
-[2015-11-09 07:52:15] [*] Server started on http://localhost:9000
-[2015-11-09 16:51:38] [*] Server started on http://localhost:9000
-[2015-11-09 16:52:30] [*] Server started on http://localhost:9000
-[2015-11-09 17:36:14] [*] Server started on http://localhost:9000
-[2015-11-09 18:10:28] [*] Server started on http://localhost:9000
-[2015-11-09 18:11:32] [*] Server started on http://localhost:9000
-[2015-11-09 18:11:52] [*] Server started on http://localhost:9000
-[2015-11-09 18:29:47] [*] Server started on http://localhost:9000
-[2015-11-09 18:35:23] [*] Server started on http://localhost:9000
-[2015-11-09 18:36:54] [*] Server started on http://localhost:9000
-[2015-11-09 18:42:01] [*] Server started on http://localhost:9000
-[2015-11-09 18:43:09] [*] Server started on http://localhost:9000
-[2015-11-09 18:43:35] [*] Server started on http://localhost:9000
-[2015-11-09 18:43:43] [*] Server started on http://localhost:9000
-[2015-11-09 18:46:27] [*] Server started on http://localhost:9000
-[2015-11-09 19:08:37] [*] Server started on http://localhost:9000
-[2015-11-09 19:09:20] [*] Server started on http://localhost:9000
-[2015-11-09 19:10:45] [*] Server started on http://localhost:9000
-[2015-11-09 19:12:17] [*] Server started on http://localhost:9000
-[2015-11-09 19:14:58] [*] Server started on http://localhost:9000
-[2015-11-09 19:15:53] [*] Server started on http://localhost:9000
-[2015-11-09 19:16:26] [*] Server started on http://localhost:9000
-[2015-11-09 19:17:38] [*] Server started on http://localhost:9000
-[2015-11-09 19:19:15] [*] Server started on http://localhost:9000
-[2015-11-09 19:20:07] [*] Server started on http://localhost:9000
-[2015-11-09 19:21:05] [*] Server started on http://localhost:9000
-[2015-11-09 19:21:57] [*] Server started on http://localhost:9000
-[2015-11-09 19:22:14] [*] Server started on http://localhost:9000
-[2015-11-09 19:29:21] [*] Server started on http://localhost:9000
-[2015-11-09 19:30:59] [*] Server started on http://localhost:9000
-[2015-11-09 19:31:20] [*] Server started on http://localhost:9000
-[2015-11-09 19:33:07] [*] Server started on http://localhost:9000
-[2015-11-09 19:33:21] [*] Server started on http://localhost:9000
-[2015-11-09 19:33:37] [*] Server started on http://localhost:9000
-[2015-11-09 19:33:43] [*] Server started on http://localhost:9000
-[2015-11-09 19:36:15] [*] Server started on http://localhost:9000
-[2015-11-09 19:40:31] [*] Server started on http://localhost:9000
-[2015-11-09 19:40:59] [*] Server started on http://localhost:9000
-[2015-11-09 19:46:21] [*] Server started on http://localhost:9000
-[2015-11-09 19:46:27] [*] Server started on http://localhost:9000
-[2015-11-09 19:46:41] [*] Server started on http://localhost:9000
-[2015-11-09 19:46:42] [+] GET /home/ne0h/Dropbox/Web/fbelanger_C30_A02/app/public/index.html for 127.0.0.1
-[2015-11-09 19:46:42] [+] GET /home/ne0h/Dropbox/Web/fbelanger_C30_A02/app/public/favicon.ico for 127.0.0.1
-[2015-11-09 19:49:38] [*] Server started on http://localhost:9000
-[2015-11-09 19:49:40] [+] GET /home/ne0h/Dropbox/Web/fbelanger_C30_A02/app/public/securityTest.html for 127.0.0.1
-[2015-11-09 19:49:48] [+] GET /home/ne0h/Dropbox/Web/fbelanger_C30_A02/app/public/securityTest.html for 127.0.0.1
-[2015-11-09 19:51:00] [+] GET /home/ne0h/Dropbox/Web/fbelanger_C30_A02/app/public/favicon.ico for 127.0.0.1
-[2015-11-09 19:51:20] [*] Server started on http://localhost:9000
-[2015-11-09 19:51:22] [+] GET /home/ne0h/Dropbox/Web/fbelanger_C30_A02/app/public/index.html for 127.0.0.1
-[2015-11-09 19:51:23] [+] GET /home/ne0h/Dropbox/Web/fbelanger_C30_A02/app/public/favicon.ico for 127.0.0.1
-[2015-11-09 19:53:50] [+] GET /home/ne0h/Dropbox/Web/fbelanger_C30_A02/app/public/securityTest.html for 127.0.0.1
-[2015-11-09 19:53:56] [+] GET /home/ne0h/Dropbox/Web/fbelanger_C30_A02/app/public/securityTest.html for 127.0.0.1
-[2015-11-09 19:53:56] [+] GET /home/ne0h/Dropbox/Web/fbelanger_C30_A02/app/public/favicon.ico for 127.0.0.1
-[2015-11-09 19:54:10] [+] GET /home/ne0h/Dropbox/Web/fbelanger_C30_A02/app/public/favicon.ico for 127.0.0.1
-[2015-11-09 19:54:11] [+] GET /home/ne0h/Dropbox/Web/fbelanger_C30_A02/app/public/favicon.ico for 127.0.0.1
-[2015-11-09 19:54:11] [+] GET /home/ne0h/Dropbox/Web/fbelanger_C30_A02/app/public/favicon.ico for 127.0.0.1
-[2015-11-09 19:54:13] [*] Server started on http://localhost:9000
-[2015-11-09 19:54:22] [+] GET /home/ne0h/Dropbox/Web/fbelanger_C30_A02/app/public/securityTest.html for 127.0.0.1
-[2015-11-09 19:55:05] [+] GET /home/ne0h/Dropbox/Web/fbelanger_C30_A02/app/public/favicon.ico for 127.0.0.1
-[2015-11-09 19:55:05] [+] GET /home/ne0h/Dropbox/Web/fbelanger_C30_A02/app/public/newpath/evenmore/TestPath.html for 127.0.0.1
-[2015-11-09 19:55:05] [+] GET /home/ne0h/Dropbox/Web/fbelanger_C30_A02/app/public/favicon.ico for 127.0.0.1
-[2015-11-09 19:55:35] [+] GET /home/ne0h/Dropbox/Web/fbelanger_C30_A02/app/public/Test6CSS.html for 127.0.0.1
-[2015-11-09 19:55:35] [+] GET /home/ne0h/Dropbox/Web/fbelanger_C30_A02/app/public/styles/TestCSS.css for 127.0.0.1
-[2015-11-09 19:55:36] [+] GET /home/ne0h/Dropbox/Web/fbelanger_C30_A02/app/public/images/ballooninsky.jpg for 127.0.0.1
-[2015-11-09 19:55:36] [+] GET /home/ne0h/Dropbox/Web/fbelanger_C30_A02/app/public/favicon.ico for 127.0.0.1
-[2015-11-09 19:57:44] [*] Server started on http://localhost:9000
-[2015-11-09 20:05:53] [*] Server started on http://localhost:9000
-[2015-11-09 20:06:45] [*] Server started on http://localhost:9000
-[2015-11-09 20:06:57] [*] Server started on http://localhost:9000
-[2015-11-09 20:07:15] [*] Server started on http://localhost:9000
-[2015-11-09 20:07:17] [+] GET /home/ne0h/Dropbox/Web/fbelanger_C30_A02/app/public/favicon.ico for 127.0.0.1
+[2015-11-10 03:13:32] [*] Server started on http://localhost:9000
+[2015-11-10 03:13:33] [-] 500 - Internal Error GET undefined => /home/ne0h/Dropbox/Web/fbelanger_C30_A02/app/router/public/index.html for 127.0.0.1
+[2015-11-10 03:13:33] [+] GET from 127.0.0.1 for /home/ne0h/Dropbox/Web/fbelanger_C30_A02/app/public/errors/500.html
+[2015-11-10 03:13:33] [+] GET / => /home/ne0h/Dropbox/Web/fbelanger_C30_A02/app/public/ from 127.0.0.1
+[2015-11-10 03:13:33] [-] 500 - Internal Error GET undefined => /home/ne0h/Dropbox/Web/fbelanger_C30_A02/app/public/ for 127.0.0.1
+[2015-11-10 03:13:33] [+] GET from 127.0.0.1 for /home/ne0h/Dropbox/Web/fbelanger_C30_A02/app/public/errors/500.html
+[2015-11-10 03:13:51] [*] Server started on http://localhost:9000
+[2015-11-10 03:14:23] [*] Server started on http://localhost:9000
+[2015-11-10 03:14:24] [-] 500 - Internal Error GET undefined => /home/ne0h/Dropbox/Web/fbelanger_C30_A02/app/router/public/index.html for 127.0.0.1
+[2015-11-10 03:14:24] [+] GET from 127.0.0.1 for /home/ne0h/Dropbox/Web/fbelanger_C30_A02/app/public/errors/500.html
+[2015-11-10 03:14:24] [+] GET / => /home/ne0h/Dropbox/Web/fbelanger_C30_A02/app/public/ from 127.0.0.1
+[2015-11-10 03:14:24] [-] 500 - Internal Error GET undefined => /home/ne0h/Dropbox/Web/fbelanger_C30_A02/app/public/ for 127.0.0.1
+[2015-11-10 03:14:24] [+] GET from 127.0.0.1 for /home/ne0h/Dropbox/Web/fbelanger_C30_A02/app/public/errors/500.html
+[2015-11-10 03:24:56] [+] GET / => /home/ne0h/Dropbox/Web/fbelanger_C30_A02/app/public/ from 127.0.0.1
+[2015-11-10 03:24:56] [-] 500 - Internal Error GET undefined => /home/ne0h/Dropbox/Web/fbelanger_C30_A02/app/public/ for 127.0.0.1
+[2015-11-10 03:24:56] [+] GET from 127.0.0.1 for /home/ne0h/Dropbox/Web/fbelanger_C30_A02/app/public/errors/500.html
+[2015-11-10 03:24:57] [+] GET / => /home/ne0h/Dropbox/Web/fbelanger_C30_A02/app/public/ from 127.0.0.1
+[2015-11-10 03:24:57] [-] 500 - Internal Error GET undefined => /home/ne0h/Dropbox/Web/fbelanger_C30_A02/app/public/ for 127.0.0.1
+[2015-11-10 03:24:57] [+] GET from 127.0.0.1 for /home/ne0h/Dropbox/Web/fbelanger_C30_A02/app/public/errors/500.html
+[2015-11-10 03:26:13] [*] Server started on http://localhost:9000
+[2015-11-10 03:26:14] [+] GET /index.html => /home/ne0h/Dropbox/Web/fbelanger_C30_A02/app/public/index.html from 127.0.0.1
+[2015-11-10 03:26:15] [+] GET /favicon.ico => /home/ne0h/Dropbox/Web/fbelanger_C30_A02/app/public/favicon.ico from 127.0.0.1
+[2015-11-10 03:26:28] [+] GET /favicon.ico => /home/ne0h/Dropbox/Web/fbelanger_C30_A02/app/public/favicon.ico from 127.0.0.1
+[2015-11-10 03:37:29] [*] Server started on http://localhost:9000
+[2015-11-10 03:37:56] [*] Server started on http://localhost:9000
+[2015-11-10 03:38:00] [+] GET /favicon.ico => /home/ne0h/Dropbox/Web/fbelanger_C30_A02/app/public/favicon.ico from 127.0.0.1
+[2015-11-10 03:38:03] [+] GET /favicon.ico => /home/ne0h/Dropbox/Web/fbelanger_C30_A02/app/public/favicon.ico from 127.0.0.1
+[2015-11-10 03:38:05] [+] GET /favicon.ico => /home/ne0h/Dropbox/Web/fbelanger_C30_A02/app/public/favicon.ico from 127.0.0.1
+[2015-11-10 03:38:05] [+] GET /favicon.ico => /home/ne0h/Dropbox/Web/fbelanger_C30_A02/app/public/favicon.ico from 127.0.0.1
+[2015-11-10 03:38:14] [*] Server started on http://localhost:9000
+[2015-11-10 03:39:22] [*] Server started on http://localhost:9000
+[2015-11-10 04:14:17] [*] Server started on http://localhost:9000
+[2015-11-10 04:15:53] [*] Server started on http://localhost:9000
+[2015-11-10 04:16:01] [*] Server started on http://localhost:9000
+[2015-11-10 04:16:29] [*] Server started on http://localhost:9000
+[2015-11-10 04:17:23] [*] Server started on http://localhost:9000
+[2015-11-12 12:19:11] [*] Server started on http://localhost:9000
+[2015-11-12 12:20:47] [*] Server started on http://localhost:9000
+[2015-11-12 12:21:02] [*] Server started on http://localhost:9000
+[2015-11-13 12:29:46] [*] Server started on http://localhost:9000

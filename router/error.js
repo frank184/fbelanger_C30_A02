@@ -12,13 +12,14 @@ var errors_folder = path.join(__dirname, "..", "public", "errors");
 // Exports
 var statusCodes = {
   "404": "File not Found",
+  "405": "Method not Allowed",
   "406": "Unsuppoerted Extension",
   "500": "Internal Error",
   "520": "Unknown Error"
 }
 module.exports = function(statusCode, path_to_file, request, response) {
   response.writeHead(statusCode);
-  log(" [-] " + statusCode + " - " + statusCodes[statusCode] + " " + path_to_file + " for " + request.connection.remoteAddress);
+  log.log(" [-] " + statusCode + " - " + statusCodes[statusCode] + " " + request.method + " " + request.url.pathname + " => " + path_to_file + " for " + request.connection.remoteAddress);
   path_to_file = path.join(errors_folder, statusCode + ".html");
   fs.readFile(path_to_file, function(err, data){
     if (err) throw err;
