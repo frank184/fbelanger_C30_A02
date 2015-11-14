@@ -45,3 +45,41 @@
 [2015-11-14 08:38:40] [+] GET /.index.html => /home/ne0h/Dropbox/Web/fbelanger_C30_A02/app/public/errors/403.html from 127.0.0.1
 [2015-11-14 08:38:41] [+] GET /favicon.ico => /home/ne0h/Dropbox/Web/fbelanger_C30_A02/app/public/favicon.ico from 127.0.0.1
 [2015-11-14 08:38:47] [*] Server started on http://localhost:9000
+[2015-11-14 16:14:21] [*] Server started on http://localhost:9000
+[2015-11-14 16:16:29] [+] GET / => {"GET":{}} from 127.0.0.1
+[2015-11-14 16:16:29] [+] GET / => /home/ne0h/Desktop/node-native-router/public/index.html from 127.0.0.1
+[2015-11-14 16:16:30] [+] GET /favicon.ico => /home/ne0h/Desktop/node-native-router/public/favicon.ico from 127.0.0.1
+[2015-11-14 17:01:35] [+] GET / => {"GET":{}} from 127.0.0.1
+[2015-11-14 17:01:35] [+] GET / => /home/ne0h/Desktop/node-native-router/public/index.html from 127.0.0.1
+[2015-11-14 17:01:35] [+] GET /favicon.ico => /home/ne0h/Desktop/node-native-router/public/favicon.ico from 127.0.0.1
+[2015-11-14 17:14:32] [*] Server started on http://localhost:9000
+[2015-11-14 17:14:35] [+] POST /users/create => {"POST":{}} from 127.0.0.1
+[2015-11-14 17:14:52] [*] Server started on http://localhost:9000
+[2015-11-14 17:14:54] [+] GET / => {"GET":{}} from 127.0.0.1
+[2015-11-14 17:14:54] [+] GET / => /home/ne0h/Desktop/node-native-router/public/index.html from 127.0.0.1
+[2015-11-14 17:14:55] [+] GET /favicon.ico => /home/ne0h/Desktop/node-native-router/public/favicon.ico from 127.0.0.1
+[2015-11-14 17:15:13] [+] POST /users/create => {"POST":{}} from 127.0.0.1
+[2015-11-14 17:15:28] [*] Server started on http://localhost:9000
+[2015-11-14 17:15:32] [+] POST /users/create => {"POST":{}} from 127.0.0.1
+[2015-11-14 17:15:40] [*] Server started on http://localhost:9000
+[2015-11-14 17:15:42] [+] POST /users/create => {"POST":{}} from 127.0.0.1
+[2015-11-14 17:16:46] [*] Server started on http://localhost:9000
+[2015-11-14 17:16:48] [+] POST /users/create => {"POST":{}} from 127.0.0.1
+[2015-11-14 17:17:01] [*] Server started on http://localhost:9000
+[2015-11-14 17:17:03] [+] GET / => {"GET":{}} from 127.0.0.1
+[2015-11-14 17:17:03] [+] GET / => /home/ne0h/Desktop/node-native-router/public/index.html from 127.0.0.1
+[2015-11-14 17:17:03] [+] GET /favicon.ico => /home/ne0h/Desktop/node-native-router/public/favicon.ico from 127.0.0.1
+[2015-11-14 17:17:04] [+] POST /users/create => {"POST":{}} from 127.0.0.1
+[2015-11-14 17:17:17] [*] Server started on http://localhost:9000
+[2015-11-14 17:17:18] [+] GET / => {"GET":{}} from 127.0.0.1
+[2015-11-14 17:17:18] [+] GET / => /home/ne0h/Desktop/node-native-router/public/index.html from 127.0.0.1
+[2015-11-14 17:17:18] [+] GET /favicon.ico => /home/ne0h/Desktop/node-native-router/public/favicon.ico from 127.0.0.1
+[2015-11-14 17:41:17] [*] Server started on http://localhost:9000
+[2015-11-14 17:42:11] [+] POST /users/create => {"POST":{}} from 127.0.0.1
+[2015-11-14 17:42:25] [+] GET /users => {"GET":{},"POST":{}} from 127.0.0.1
+[2015-11-14 17:42:25] [+] GET /favicon.ico => /home/ne0h/Desktop/node-native-router/public/favicon.ico from 127.0.0.1
+[2015-11-14 17:42:26] [+] GET /users => {"GET":{},"POST":{}} from 127.0.0.1
+[2015-11-14 17:42:26] [+] GET /favicon.ico => /home/ne0h/Desktop/node-native-router/public/favicon.ico from 127.0.0.1
+[2015-11-14 17:47:15] [+] GET /favicon.ico => /home/ne0h/Desktop/node-native-router/public/favicon.ico from 127.0.0.1
+[2015-11-14 17:47:17] [+] POST /users/create => {"POST":{}} from 127.0.0.1
+[2015-11-14 17:47:52] [+] POST /users/create => {"POST":{}} from 127.0.0.1

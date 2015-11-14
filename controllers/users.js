@@ -1,6 +1,9 @@
 // Native Modules
 var qs = require('querystring');
 
+// Custom Modules
+var error = require('../router/error');
+
 // Models
 var User = require('../models/user');
 
@@ -16,14 +19,18 @@ module.exports = {
   create: function(request, response) {
     var body = "";
     request.on("data", function(data) {
-      body += qs.parse(data);
+      body += data;
     });
     request.on("end", function() {
+      body = qs.parse(body);
       var user =  User.create(body);
       if (user == undefined)
         error(520, request, response);
       else
         response.end(JSON.stringify(user))
+    });
+    request.on("error", function(data) {
+
     });
   },
   update: function(request, response) {

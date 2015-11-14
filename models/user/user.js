@@ -87,25 +87,21 @@ var nextID_file = path.join(__dirname, "..", "..", "data", "users", "nextID.txt"
 // Exports
 module.exports = {
   // CRUD User actions
-  // TODO:
-  // Imcomplete methods, implement emitters for async completed and better new, create.
-  // Refactor find/findSync to not use all/allSync and all/allSync should return an array.
+  // TODO: Imcomplete methods, implement emitters for async completed and better new, create.
+  //       Refactor find/findSync to not use all/allSync and all/allSync should return an array.
   new: function(callback) {
     return new User();
   },
   create: function(data) {
     var user = new User(data);
     // Synchronously to capture id
-    fs.readFileSync(nextID_file, function(err, data) {
+    user.id = parseInt(fs.readFileSync(nextID_file));
+    // Asynchronously because we can
+    fs.appendFile(users_file, user + "\n", function(err) {
       if (err) throw err;
-      user.id = parseInt(data);
-      // Asynchronously because we can
-      fs.appendFile(users_file, user + "\n", function(err) {
+      var nextID = user.id + 1;
+      fs.writeFile(nextID_file, nextID, function(err, data) {
         if (err) throw err;
-        var nextID = user.id + 1;
-        fs.writeFile(nextID_file, nextID, function(err, data) {
-          if (err) throw err;
-        });
       });
     });
     return user;
