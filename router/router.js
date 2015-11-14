@@ -38,41 +38,55 @@ module.exports = {
     var file = path.basename(url);
     var ext = path.extname(url);
     var url = URL.parse(request.url);
-    var urlArr = url.pathname.split("/");
-    // default to files from public,
-    var path_to_file = path.join(public_folder, url.pathname);
-    log.debug(
-      "URL:", url,
-      "URLARRAY:", urlArr,
-      "ROUTES:", routes,
-      "EXTENSIONS:", extensions,
-      "DIR:", dir,
-      "FILE:", file,
-      "EXT:", ext,
-      "SUPP EXT:", extensions.indexOf(ext) != -1
-    );
-    if (ext == "") {  // This is the Restful Section to be
-      route = routes[url.pathname]; // This needs to change
-        if (request.method == route.method)
-          return route.callback;
-        else handler.create("GET", function(request, response) {
-          error(405, path_to_file, request, response);
-        });
-    } else if (extensions.indexOf(ext) != -1) {
+    request.url = url.pathname;
+
+    if (ext == "") {  // This is the Restful section to be
+      var route = routes[url.pathname]; // This needs to change
+        if (route != undefined)
+          if (request.method == route.method)
+            return route;
+          else
+            return handler.create("GET", function(request, response) {
+              error(405, request, response);
+            });
+        else
+          return handler.create("GET", function(request, response) {
+            error(404, request, response);
+          });
+    } else if (extensions.indexOf(ext) != -1) { // This is the extension section
       return handler.create("GET", function(request, response) {
-        log.log(" [+] " + request.method + " " + url.pathname + " => " + path_to_file + " from " + request.connection.remoteAddress);
+        var path_to_file = path.join(public_folder, request.url);
         fs.exists(path_to_file, function(exists) {
-          if (!exists) error(404, path_to_file, request, response);
-          else fs.readFile(path_to_file, function(err, data) {
-              if (err) error(500, path_to_file, request, response);
-              else response.end(data);
+          if (!exists)
+            error(404, request, response);
+          else
+            fs.readFile(path_to_file, function(err, data) {
+              if (err)
+                error(500, request, response);
+              else
+                response.end(data);
             });
         });
       });
     } else {
       return handler.create("GET", function(request, response) {
-        error(406, path_to_file, request, response);
+        error(406, request, response);
       });
     }
+  },
+  fetch_from_public: function(file, request, response) {
+    var path_to_file = path.join(public_folder, file);
+    log.log(" [+] " + request.method + " " + request.url + " => " + path_to_file + " from " + request.connection.remoteAddress);
+    fs.exists(path_to_file, function(exists) {
+      if (!exists)
+        error(404, request, response);
+      else
+        fs.readFile(path_to_file, function(err, data) {
+          if (err)
+            error(500, request, response);
+          else
+            response.end(data);
+        });
+    });
   }
 }

@@ -10,22 +10,30 @@ var router = require('./router');
 // Controllers
 var users_controller = require('./controllers/users_controller');
 
-// Paths
-var public_folder = path.join(__dirname, "..", "public");
-
 // Valid extensions under public for file serving
 router.extensions(".html", ".css", ".js", ".png", ".jpg", ".gif", ".xml", ".txt", ".ico");
 
 // Routes
 router.set("GET", "/", function(request, response) {
-  fs.exists(public_folder, "index.html", function(exists) {
-    if (!exists) error(404, path_to_file, request, response);
-    else fs.readFile(path_to_file, function(err, data) {
-        if (err) error(500, path_to_file, request, response);
-        else response.end(data);
-      });
-  });
+  router.fetch_from_public("index.html", request, response);
 });
+
+// The Dream
+// router.set("GET", "/users", function(request, response) {
+//   users_controller.new(request, response);
+// });
+// router.set("POST", "/users", function(request, response) {
+//   users_controller.create(request, response);
+// });
+// router.set("GET", "/users/:id", function(request, response) {
+//   users_controller.show(request, response);
+// });
+// router.set("PUT", "/users/:id", function(request, response) {
+//   users_controller.update(request, response);
+// });
+// router.set("DELETE", "/users/:id", function(request, response) {
+//   users_controller.destroy(request, response);
+// });
 
 // HTTP Server
 var port = 9000;

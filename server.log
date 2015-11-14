@@ -1,40 +1,13 @@
-[2015-11-10 03:13:32] [*] Server started on http://localhost:9000
-[2015-11-10 03:13:33] [-] 500 - Internal Error GET undefined => /home/ne0h/Dropbox/Web/fbelanger_C30_A02/app/router/public/index.html for 127.0.0.1
-[2015-11-10 03:13:33] [+] GET from 127.0.0.1 for /home/ne0h/Dropbox/Web/fbelanger_C30_A02/app/public/errors/500.html
-[2015-11-10 03:13:33] [+] GET / => /home/ne0h/Dropbox/Web/fbelanger_C30_A02/app/public/ from 127.0.0.1
-[2015-11-10 03:13:33] [-] 500 - Internal Error GET undefined => /home/ne0h/Dropbox/Web/fbelanger_C30_A02/app/public/ for 127.0.0.1
-[2015-11-10 03:13:33] [+] GET from 127.0.0.1 for /home/ne0h/Dropbox/Web/fbelanger_C30_A02/app/public/errors/500.html
-[2015-11-10 03:13:51] [*] Server started on http://localhost:9000
-[2015-11-10 03:14:23] [*] Server started on http://localhost:9000
-[2015-11-10 03:14:24] [-] 500 - Internal Error GET undefined => /home/ne0h/Dropbox/Web/fbelanger_C30_A02/app/router/public/index.html for 127.0.0.1
-[2015-11-10 03:14:24] [+] GET from 127.0.0.1 for /home/ne0h/Dropbox/Web/fbelanger_C30_A02/app/public/errors/500.html
-[2015-11-10 03:14:24] [+] GET / => /home/ne0h/Dropbox/Web/fbelanger_C30_A02/app/public/ from 127.0.0.1
-[2015-11-10 03:14:24] [-] 500 - Internal Error GET undefined => /home/ne0h/Dropbox/Web/fbelanger_C30_A02/app/public/ for 127.0.0.1
-[2015-11-10 03:14:24] [+] GET from 127.0.0.1 for /home/ne0h/Dropbox/Web/fbelanger_C30_A02/app/public/errors/500.html
-[2015-11-10 03:24:56] [+] GET / => /home/ne0h/Dropbox/Web/fbelanger_C30_A02/app/public/ from 127.0.0.1
-[2015-11-10 03:24:56] [-] 500 - Internal Error GET undefined => /home/ne0h/Dropbox/Web/fbelanger_C30_A02/app/public/ for 127.0.0.1
-[2015-11-10 03:24:56] [+] GET from 127.0.0.1 for /home/ne0h/Dropbox/Web/fbelanger_C30_A02/app/public/errors/500.html
-[2015-11-10 03:24:57] [+] GET / => /home/ne0h/Dropbox/Web/fbelanger_C30_A02/app/public/ from 127.0.0.1
-[2015-11-10 03:24:57] [-] 500 - Internal Error GET undefined => /home/ne0h/Dropbox/Web/fbelanger_C30_A02/app/public/ for 127.0.0.1
-[2015-11-10 03:24:57] [+] GET from 127.0.0.1 for /home/ne0h/Dropbox/Web/fbelanger_C30_A02/app/public/errors/500.html
-[2015-11-10 03:26:13] [*] Server started on http://localhost:9000
-[2015-11-10 03:26:14] [+] GET /index.html => /home/ne0h/Dropbox/Web/fbelanger_C30_A02/app/public/index.html from 127.0.0.1
-[2015-11-10 03:26:15] [+] GET /favicon.ico => /home/ne0h/Dropbox/Web/fbelanger_C30_A02/app/public/favicon.ico from 127.0.0.1
-[2015-11-10 03:26:28] [+] GET /favicon.ico => /home/ne0h/Dropbox/Web/fbelanger_C30_A02/app/public/favicon.ico from 127.0.0.1
-[2015-11-10 03:37:29] [*] Server started on http://localhost:9000
-[2015-11-10 03:37:56] [*] Server started on http://localhost:9000
-[2015-11-10 03:38:00] [+] GET /favicon.ico => /home/ne0h/Dropbox/Web/fbelanger_C30_A02/app/public/favicon.ico from 127.0.0.1
-[2015-11-10 03:38:03] [+] GET /favicon.ico => /home/ne0h/Dropbox/Web/fbelanger_C30_A02/app/public/favicon.ico from 127.0.0.1
-[2015-11-10 03:38:05] [+] GET /favicon.ico => /home/ne0h/Dropbox/Web/fbelanger_C30_A02/app/public/favicon.ico from 127.0.0.1
-[2015-11-10 03:38:05] [+] GET /favicon.ico => /home/ne0h/Dropbox/Web/fbelanger_C30_A02/app/public/favicon.ico from 127.0.0.1
-[2015-11-10 03:38:14] [*] Server started on http://localhost:9000
-[2015-11-10 03:39:22] [*] Server started on http://localhost:9000
-[2015-11-10 04:14:17] [*] Server started on http://localhost:9000
-[2015-11-10 04:15:53] [*] Server started on http://localhost:9000
-[2015-11-10 04:16:01] [*] Server started on http://localhost:9000
-[2015-11-10 04:16:29] [*] Server started on http://localhost:9000
-[2015-11-10 04:17:23] [*] Server started on http://localhost:9000
-[2015-11-12 12:19:11] [*] Server started on http://localhost:9000
-[2015-11-12 12:20:47] [*] Server started on http://localhost:9000
-[2015-11-12 12:21:02] [*] Server started on http://localhost:9000
-[2015-11-13 12:29:46] [*] Server started on http://localhost:9000
+[2015-11-14 02:55:15] [*] Server started on http://localhost:9000
+[2015-11-14 02:55:17] [-] 404 - File not Found for GET /securityTest.html from 127.0.0.1
+[2015-11-14 02:55:17] [+] GET /securityTest.html => /home/ne0h/Dropbox/Web/fbelanger_C30_A02/app/public/errors/404.html from 127.0.0.1
+[2015-11-14 02:55:18] [-] 404 - File not Found for GET /securityTest.html from 127.0.0.1
+[2015-11-14 02:55:18] [+] GET /securityTest.html => /home/ne0h/Dropbox/Web/fbelanger_C30_A02/app/public/errors/404.html from 127.0.0.1
+[2015-11-14 02:55:18] [-] 404 - File not Found for GET /securityTest.html from 127.0.0.1
+[2015-11-14 02:55:18] [+] GET /securityTest.html => /home/ne0h/Dropbox/Web/fbelanger_C30_A02/app/public/errors/404.html from 127.0.0.1
+[2015-11-14 02:55:19] [-] 404 - File not Found for GET /securityTest.html from 127.0.0.1
+[2015-11-14 02:55:19] [+] GET /securityTest.html => /home/ne0h/Dropbox/Web/fbelanger_C30_A02/app/public/errors/404.html from 127.0.0.1
+[2015-11-14 02:55:24] [+] GET / => /home/ne0h/Dropbox/Web/fbelanger_C30_A02/app/public/index.html from 127.0.0.1
+[2015-11-14 02:55:26] [+] GET / => /home/ne0h/Dropbox/Web/fbelanger_C30_A02/app/public/index.html from 127.0.0.1
+[2015-11-14 02:55:27] [+] GET / => /home/ne0h/Dropbox/Web/fbelanger_C30_A02/app/public/index.html from 127.0.0.1
+[2015-11-14 02:55:28] [+] GET / => /home/ne0h/Dropbox/Web/fbelanger_C30_A02/app/public/index.html from 127.0.0.1
