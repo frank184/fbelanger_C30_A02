@@ -1,10 +1,13 @@
-var error = require('./error');
+var error = require('../error');
 
 // Handler object
 function Handler(callback) {
-  this.handle = function(request, response) {
-    return callback.call(this, request, response);
-  }
+  this.callback = callback;
+};
+
+// Handler handle method, handles response callbacks on request
+Handler.prototype.handle = function(request, response) {
+  return this.callback.call(this, request, response);
 };
 
 // Exports

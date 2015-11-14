@@ -5,7 +5,7 @@ var fs = require('fs');
 
 // Custom Modules
 var router = require('./router');
-var log = require('./router/log');
+var log = require('./log');
 
 // Controllers
 var users = require('./controllers/users');
@@ -23,19 +23,17 @@ router.set("GET", "/users", function(request, response) {
 router.set("GET", "/users/new", function(request, response) {
   users.new(request, response);
 });
-// While on the index.html page, you can use JQuery
+// While on the "/" or "/index.html" page, you can use JQuery
 // $.post("/users", {});
 // $.post("/users/create", {});
-// $.ajax({
-//   method: "POST",
-//   url: "/users/create",
-//   data: {}
-// }).done(function(data){
+// $.ajax({ method: "POST", url: "/users/create", data: {} })
+// .done(function(data){
 //   $('body').html(data);
 // });
 router.set("POST", ["/users", "/users/create"], function(request, response) {
   users.create(request, response);
 });
+
 // Something like this is currently possible!!! :)
 // var sessions = require('./controllers/users/sessions');
 // var registrations = require('./controllers/users/registrations');
@@ -46,6 +44,7 @@ router.set("POST", ["/users", "/users/create"], function(request, response) {
 // router.set("POST", "/users/sessions/sign_in", function(request, response) {
 //   sessions.create(request, response);
 // });
+
 // TODO The Restful Dream:
 //    Need to implement params like :id or :comment_id somehow
 //    Considering replacing Integers in urls with :id and storing Integers in query or something
@@ -61,9 +60,22 @@ router.set("POST", ["/users", "/users/create"], function(request, response) {
 
 // HTTP Server
 var PORT = 9000;
-log.debug("Routes:", router.routes);
+// Starting the server displays all routes
+log.debug(router.routes);
 log.log(" [*] Server started on http://localhost:" + PORT);
 http.createServer(function(request, response) {
   handler = router.get(request);
   handler.handle(request, response);
 }).listen(PORT);
+
+// TODO Future Implementation:
+//  In the future, I would look the router to be a part of a bigger system to do something like:
+
+// var app = native_mvc.createServer();
+// app.get("/", function(request, response) {
+//    home.index(request, response);
+// });
+// app.post("/users", "/users/create", function(request, response) {
+//    user.create(request, response);
+// });
+// app.listen(3000);

@@ -5,13 +5,13 @@ var fs = require('fs');
 
 // Custom Modules
 var handler = require('./handler');
-var error = require('./error');
-var log = require('./log');
+var error = require('../error');
+var log = require('../log');
 
 var extensions = [];
 var routes = {};
 
-module.exports = {
+var proto = module.exports = {
   routes: routes,
   extensions: function(exts) {
     for (arg in arguments) {
@@ -77,7 +77,7 @@ module.exports = {
       }
     } else if (extensions.indexOf(ext) != -1) { // This is the file serving
       return handler.create(function(request, response) {
-        module.exports.public(request.url, request, response);
+        proto.public(request.url, request, response);
       });
     } else {
       return handler.create(function(request, response) {

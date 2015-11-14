@@ -17,7 +17,7 @@ var statusCodes = {
   "406": "Unsuppoerted Extension",
   "500": "Internal Error",
   "520": "Unknown Error"
-}
+};
 
 // Was going to render styled error messages using templates, but never got to templates :(
 module.exports = function(statusCode, request, response) {
