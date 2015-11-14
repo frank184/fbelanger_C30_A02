@@ -1,20 +1,47 @@
-[2015-11-14 05:33:34] [*] Server started on http://localhost:9000
-[2015-11-14 05:35:08] [*] Server started on http://localhost:9000
-[2015-11-14 05:35:10] [-] 404 - File not Found for GET /users from 127.0.0.1
-[2015-11-14 05:35:10] [+] GET /users => /home/ne0h/Dropbox/Web/fbelanger_C30_A02/app/public/errors/404.html from 127.0.0.1
-[2015-11-14 05:50:44] [*] Server started on http://localhost:9000
-[2015-11-14 05:52:52] [*] Server started on http://localhost:9000
-[2015-11-14 05:53:02] [*] Server started on http://localhost:9000
-[2015-11-14 05:55:07] [*] Server started on http://localhost:9000
-[2015-11-14 05:56:00] [*] Server started on http://localhost:9000
-[2015-11-14 05:56:05] [*] Server started on http://localhost:9000
-[2015-11-14 05:56:23] [*] Server started on http://localhost:9000
-[2015-11-14 05:59:14] [*] Server started on http://localhost:9000
-[2015-11-14 06:01:51] [*] Server started on http://localhost:9000
-[2015-11-14 06:06:24] [*] Server started on http://localhost:9000
-[2015-11-14 06:06:26] [+] GET / => /home/ne0h/Dropbox/Web/fbelanger_C30_A02/app/public/index.html from 127.0.0.1
-[2015-11-14 06:07:07] [*] Server started on http://localhost:9000
-[2015-11-14 06:07:09] [+] GET / => /home/ne0h/Dropbox/Web/fbelanger_C30_A02/app/public/index.html from 127.0.0.1
-[2015-11-14 06:07:19] [+] GET / => /home/ne0h/Dropbox/Web/fbelanger_C30_A02/app/public/index.html from 127.0.0.1
-[2015-11-14 06:10:00] [-] 406 - Unsuppoerted Extension for GET /a.ht from 127.0.0.1
-[2015-11-14 06:10:00] [+] GET /a.ht => /home/ne0h/Dropbox/Web/fbelanger_C30_A02/app/public/errors/406.html from 127.0.0.1
+[2015-11-14 07:39:59] [*] Server started on http://localhost:9000
+[2015-11-14 07:40:02] [+] GET /favicon.ico => /home/ne0h/Dropbox/Web/fbelanger_C30_A02/app/public/favicon.ico from 127.0.0.1
+[2015-11-14 07:40:40] [*] Server started on http://localhost:9000
+[2015-11-14 07:40:42] [+] GET /users => [object Object] from 127.0.0.1
+[2015-11-14 07:40:43] [+] GET /favicon.ico => /home/ne0h/Dropbox/Web/fbelanger_C30_A02/app/public/favicon.ico from 127.0.0.1
+[2015-11-14 07:41:05] [*] Server started on http://localhost:9000
+[2015-11-14 07:41:07] [+] GET /users => function Object() { [native code] } from 127.0.0.1
+[2015-11-14 07:41:07] [+] GET /favicon.ico => /home/ne0h/Dropbox/Web/fbelanger_C30_A02/app/public/favicon.ico from 127.0.0.1
+[2015-11-14 07:41:30] [*] Server started on http://localhost:9000
+[2015-11-14 07:41:32] [+] GET /users => {"GET":{},"POST":{}} from 127.0.0.1
+[2015-11-14 07:41:33] [+] GET /favicon.ico => /home/ne0h/Dropbox/Web/fbelanger_C30_A02/app/public/favicon.ico from 127.0.0.1
+[2015-11-14 07:42:40] [*] Server started on http://localhost:9000
+[2015-11-14 07:42:47] [+] GET /users => {} from 127.0.0.1
+[2015-11-14 07:42:48] [+] GET /favicon.ico => /home/ne0h/Dropbox/Web/fbelanger_C30_A02/app/public/favicon.ico from 127.0.0.1
+[2015-11-14 07:45:57] [*] Server started on http://localhost:9000
+[2015-11-14 07:45:59] [+] GET /users => [object Object] from 127.0.0.1
+[2015-11-14 07:45:59] [+] GET /favicon.ico => /home/ne0h/Dropbox/Web/fbelanger_C30_A02/app/public/favicon.ico from 127.0.0.1
+[2015-11-14 07:49:10] [+] GET /favicon.ico => /home/ne0h/Dropbox/Web/fbelanger_C30_A02/app/public/favicon.ico from 127.0.0.1
+[2015-11-14 07:49:15] [+] POST /users/create => [object Object] from 127.0.0.1
+[2015-11-14 07:51:15] [+] POST /users/create => [object Object] from 127.0.0.1
+[2015-11-14 07:54:49] [*] Server started on http://localhost:9000
+[2015-11-14 07:54:56] [+] POST /users/create => {"POST":{}} from 127.0.0.1
+[2015-11-14 07:55:48] [+] POST /users/create => {"POST":{}} from 127.0.0.1
+[2015-11-14 08:06:00] [*] Server started on http://localhost:9000
+[2015-11-14 08:21:16] [*] Server started on http://localhost:9000
+[2015-11-14 08:21:19] [+] GET /index.html => /home/ne0h/Dropbox/Web/fbelanger_C30_A02/app/public/index.html from 127.0.0.1
+[2015-11-14 08:21:19] [+] GET /favicon.ico => /home/ne0h/Dropbox/Web/fbelanger_C30_A02/app/public/favicon.ico from 127.0.0.1
+[2015-11-14 08:21:24] [+] POST /users/create => {"POST":{}} from 127.0.0.1
+[2015-11-14 08:22:59] [*] Server started on http://localhost:9000
+[2015-11-14 08:23:03] [+] GET /index.html => /home/ne0h/Dropbox/Web/fbelanger_C30_A02/app/public/index.html from 127.0.0.1
+[2015-11-14 08:23:04] [+] GET /favicon.ico => /home/ne0h/Dropbox/Web/fbelanger_C30_A02/app/public/favicon.ico from 127.0.0.1
+[2015-11-14 08:23:07] [+] POST /users/create => {"POST":{}} from 127.0.0.1
+[2015-11-14 08:23:33] [*] Server started on http://localhost:9000
+[2015-11-14 08:23:35] [+] GET /index.html => /home/ne0h/Dropbox/Web/fbelanger_C30_A02/app/public/index.html from 127.0.0.1
+[2015-11-14 08:23:36] [+] GET /favicon.ico => /home/ne0h/Dropbox/Web/fbelanger_C30_A02/app/public/favicon.ico from 127.0.0.1
+[2015-11-14 08:23:42] [+] POST /users/create => {"POST":{}} from 127.0.0.1
+[2015-11-14 08:24:46] [*] Server started on http://localhost:9000
+[2015-11-14 08:24:48] [+] GET /index.html => /home/ne0h/Dropbox/Web/fbelanger_C30_A02/app/public/index.html from 127.0.0.1
+[2015-11-14 08:24:49] [+] GET /favicon.ico => /home/ne0h/Dropbox/Web/fbelanger_C30_A02/app/public/favicon.ico from 127.0.0.1
+[2015-11-14 08:28:03] [*] Server started on http://localhost:9000
+[2015-11-14 08:28:04] [+] GET /index.html => /home/ne0h/Dropbox/Web/fbelanger_C30_A02/app/public/index.html from 127.0.0.1
+[2015-11-14 08:28:05] [+] GET /favicon.ico => /home/ne0h/Dropbox/Web/fbelanger_C30_A02/app/public/favicon.ico from 127.0.0.1
+[2015-11-14 08:38:32] [*] Server started on http://localhost:9000
+[2015-11-14 08:38:40] [-] 403 - Forbidden for GET /.index.html from 127.0.0.1
+[2015-11-14 08:38:40] [+] GET /.index.html => /home/ne0h/Dropbox/Web/fbelanger_C30_A02/app/public/errors/403.html from 127.0.0.1
+[2015-11-14 08:38:41] [+] GET /favicon.ico => /home/ne0h/Dropbox/Web/fbelanger_C30_A02/app/public/favicon.ico from 127.0.0.1
+[2015-11-14 08:38:47] [*] Server started on http://localhost:9000

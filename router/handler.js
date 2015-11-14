@@ -2,13 +2,9 @@ var error = require('./error');
 
 // Handler object
 function Handler(callback) {
-  this.callback = callback;
-};
-
-// init callback
-Handler.prototype.init = function(request, response) {
-  // return this.callback.call(this, request, response);
-  return this.callback.call(this, request, response);
+  this.handle = function(request, response) {
+    return callback.call(this, request, response);
+  }
 };
 
 // Exports

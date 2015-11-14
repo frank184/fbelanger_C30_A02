@@ -8,11 +8,6 @@ var handler = require('./handler');
 var error = require('./error');
 var log = require('./log');
 
-// Paths
-var public_folder = path.join(__dirname, "..", "public");
-
-// Defining no extension because this will be our Restful API
-// The Restful API will utilize views written in jade templates
 var extensions = [];
 var routes = {};
 
@@ -34,15 +29,17 @@ module.exports = {
     if (!callback)
       throw new Error("This method requires a callback parameter.");
 
-    if (url.constructor == Array)
-      for (i in url)
+    if (url.constructor != Array && url.constructor != String)
+      throw new Error("Invalid parameters for this method ex: ")
+    else if (url.constructor == Array)
+      for (i in url) // i = index in an array of urls
         if (routes[url[i]] == undefined) {
           routes[url[i]] = {};
           routes[url[i]][method] = handler.create(callback);
         } else {
           routes[url[i]][method] = handler.create(callback);
         }
-    else
+    else if (url.constructor == String)
       if (routes[url] == undefined) {
         routes[url] = {};
         routes[url][method] = handler.create(callback);
@@ -56,10 +53,15 @@ module.exports = {
     var file = path.basename(url);
     var ext = path.extname(url);
     var url = URL.parse(path.join(dir, file));
-    request.url = url.pathname; // the precedent fixed
+    request.url = url.pathname; // request.url fixed
 
+    if (file.charAt(0) == ".")
+      return handler.create(function(request, response) {
+        error(403, request, response);
+      });
     if (ext == "") { // RestAPI
       var route = routes[url.pathname];
+      log.log(" [+] " + request.method + " " + request.url + " => " + JSON.stringify(route) + " from " + request.connection.remoteAddress);
       if (route == undefined) {
         return handler.create(function(request, response) {
           error(404, request, response);
@@ -73,20 +75,9 @@ module.exports = {
         else
           return callback;
       }
-    } else if (extensions.indexOf(ext) != -1) { // This is the extension section
+    } else if (extensions.indexOf(ext) != -1) { // This is the file serving
       return handler.create(function(request, response) {
-        var path_to_file = path.join(public_folder, request.url);
-        fs.exists(path_to_file, function(exists) {
-          if (!exists)
-            error(404, request, response);
-          else
-            fs.readFile(path_to_file, function(err, data) {
-              if (err)
-                error(500, request, response);
-              else
-                response.end(data);
-            });
-        });
+        module.exports.public(request.url, request, response);
       });
     } else {
       return handler.create(function(request, response) {
@@ -95,6 +86,7 @@ module.exports = {
     }
   },
   public: function(file, request, response) {
+    var public_folder = path.join(__dirname, "..", "public");
     var path_to_file = path.join(public_folder, file);
     log.log(" [+] " + request.method + " " + request.url + " => " + path_to_file + " from " + request.connection.remoteAddress);
     fs.exists(path_to_file, function(exists) {

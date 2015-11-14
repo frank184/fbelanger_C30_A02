@@ -11,12 +11,15 @@ var errors_folder = path.join(__dirname, "..", "public", "errors");
 
 // Exports
 var statusCodes = {
+  "403": "Forbidden",
   "404": "File not Found",
   "405": "Method not Allowed",
   "406": "Unsuppoerted Extension",
   "500": "Internal Error",
   "520": "Unknown Error"
 }
+
+// Was going to render styled error messages using templates, but never got to templates :(
 module.exports = function(statusCode, request, response) {
   response.writeHead(statusCode);
   log.log(" [-] " + statusCode + " - " + statusCodes[statusCode] + " for " + request.method + " " + request.url + " from " + request.connection.remoteAddress);

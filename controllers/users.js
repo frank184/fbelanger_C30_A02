@@ -1,8 +1,9 @@
 // Native Modules
-var URL = require('url');
+var qs = require('querystring');
 
-// Model
+// Models
 var User = require('../models/user');
+
 module.exports = {
   index: function(request, response) {
     User.all(function(users) {
@@ -13,11 +14,16 @@ module.exports = {
     response.end(JSON.stringify(User.new()));
   },
   create: function(request, response) {
-    var chunks;
-    request.on("data", function(chunk) {
-      chunks += chunk;
-    }).on("end", function() {
-      response.end(chunks);
+    var body = "";
+    request.on("data", function(data) {
+      body += qs.parse(data);
+    });
+    request.on("end", function() {
+      var user =  User.create(body);
+      if (user == undefined)
+        error(520, request, response);
+      else
+        response.end(JSON.stringify(user))
     });
   },
   update: function(request, response) {

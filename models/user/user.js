@@ -3,10 +3,6 @@ var readline = require('readline');
 var path = require('path');
 var fs = require('fs');
 
-// Paths
-var users_file = path.join(__dirname, "..", "..", "db", "users", "users.txt");
-var nextID_file = path.join(__dirname, "..", "..", "db", "users", "nextID.txt");
-
 // User object
 function User(data) {
   this.id = null;
@@ -28,12 +24,8 @@ function User(data) {
     }
   } // if arguments[0] != undefined
 };
-// Number of keys (prototype attribute don't count as keys)
+// Number of keys (prototype attribute and functions do not count)
 User.prototype.length = 6;
-// Factory
-User.prototype.factory = function(data) {
-
-};
 // get/set firstName
 User.prototype.getFirstName = function() {
   return this.firstName;
@@ -87,6 +79,10 @@ User.prototype.equals = function(user) {
       && this.emailAddress == user.emailAddress
       && this.phoneNumber == user.phoneNumber;
 };
+
+// Paths
+var users_file = path.join(__dirname, "..", "..", "data", "users", "users.txt");
+var nextID_file = path.join(__dirname, "..", "..", "data", "users", "nextID.txt");
 
 // Exports
 module.exports = {
