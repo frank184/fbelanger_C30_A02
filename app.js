@@ -15,20 +15,22 @@ router.extensions(".html", ".css", ".js", ".png", ".jpg", ".gif", ".xml", ".txt"
 
 // Routes
 router.set("GET", "/", function(request, response) {
-  router.fetch_from_public("index.html", request, response);
+  router.public("index.html", request, response);
 });
-
-// The Dream
-// router.set("GET", "/users", function(request, response) {
-//   users_controller.new(request, response);
-// });
-// router.set("POST", "/users", function(request, response) {
-//   users_controller.create(request, response);
-// });
-// router.set("GET", "/users/:id", function(request, response) {
+router.set("GET", "/users", function(request, response) {
+  users_controller.index(request, response);
+});
+router.set("GET", "/users/new", function(request, response) {
+  users_controller.new(request, response);
+});
+router.set("POST", ["/users", "/users/create"], function(request, response) {
+  users_controller.create(request, response);
+});
+// TODO The Restful Dream: need to implement params
+// router.set("GET", ["/users/:id", "/users/:id/show"], function(request, response) {
 //   users_controller.show(request, response);
 // });
-// router.set("PUT", "/users/:id", function(request, response) {
+// router.set("PUT", ["/users/:id", "/users/:id/edit"], function(request, response) {
 //   users_controller.update(request, response);
 // });
 // router.set("DELETE", "/users/:id", function(request, response) {
@@ -36,9 +38,9 @@ router.set("GET", "/", function(request, response) {
 // });
 
 // HTTP Server
-var port = 9000;
-log.log(" [*] Server started on http://localhost:" + port);
+var PORT = 9000;
+log.log(" [*] Server started on http://localhost:" + PORT);
 http.createServer(function(request, response) {
   handler = router.get(request);
   handler.init(request, response);
-}).listen(port);
+}).listen(PORT);

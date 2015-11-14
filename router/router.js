@@ -27,34 +27,54 @@ module.exports = {
       }
   },
   set: function(method, url, callback) {
-    if (!method) throw new Error("This method requires a request method parameter.")
-    if (!url) throw new Error("This method requires a url parameter.");
-    if (!callback) throw new Error("This method requires a callback parameter.");
-    routes[url] = handler.create(method, callback);
+    if (!method)
+      throw new Error("This method requires a request method parameter.")
+    if (!url)
+      throw new Error("This method requires a url parameter.");
+    if (!callback)
+      throw new Error("This method requires a callback parameter.");
+
+    if (url.constructor == Array)
+      for (i in url)
+        if (routes[url[i]] == undefined) {
+          routes[url[i]] = {};
+          routes[url[i]][method] = handler.create(callback);
+        } else {
+          routes[url[i]][method] = handler.create(callback);
+        }
+    else
+      if (routes[url] == undefined) {
+        routes[url] = {};
+        routes[url][method] = handler.create(callback);
+      } else {
+        routes[url][method] = handler.create(callback);
+      }
   },
   get: function(request) {
     var url = request.url;
     var dir = path.dirname(url);
     var file = path.basename(url);
     var ext = path.extname(url);
-    var url = URL.parse(request.url);
-    request.url = url.pathname;
+    var url = URL.parse(path.join(dir, file));
+    request.url = url.pathname; // the precedent fixed
 
-    if (ext == "") {  // This is the Restful section to be
-      var route = routes[url.pathname]; // This needs to change
-        if (route != undefined)
-          if (request.method == route.method)
-            return route;
-          else
-            return handler.create("GET", function(request, response) {
-              error(405, request, response);
-            });
-        else
-          return handler.create("GET", function(request, response) {
-            error(404, request, response);
+    if (ext == "") { // RestAPI
+      var route = routes[url.pathname];
+      if (route == undefined) {
+        return handler.create(function(request, response) {
+          error(404, request, response);
+        });
+      } else {
+        var callback = route[request.method];
+        if (callback == undefined)
+          return handler.create(function(request, response) {
+            error(405, request, response);
           });
+        else
+          return callback;
+      }
     } else if (extensions.indexOf(ext) != -1) { // This is the extension section
-      return handler.create("GET", function(request, response) {
+      return handler.create(function(request, response) {
         var path_to_file = path.join(public_folder, request.url);
         fs.exists(path_to_file, function(exists) {
           if (!exists)
@@ -69,12 +89,12 @@ module.exports = {
         });
       });
     } else {
-      return handler.create("GET", function(request, response) {
+      return handler.create(function(request, response) {
         error(406, request, response);
       });
     }
   },
-  fetch_from_public: function(file, request, response) {
+  public: function(file, request, response) {
     var path_to_file = path.join(public_folder, file);
     log.log(" [+] " + request.method + " " + request.url + " => " + path_to_file + " from " + request.connection.remoteAddress);
     fs.exists(path_to_file, function(exists) {

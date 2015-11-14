@@ -1,13 +1,20 @@
-[2015-11-14 02:55:15] [*] Server started on http://localhost:9000
-[2015-11-14 02:55:17] [-] 404 - File not Found for GET /securityTest.html from 127.0.0.1
-[2015-11-14 02:55:17] [+] GET /securityTest.html => /home/ne0h/Dropbox/Web/fbelanger_C30_A02/app/public/errors/404.html from 127.0.0.1
-[2015-11-14 02:55:18] [-] 404 - File not Found for GET /securityTest.html from 127.0.0.1
-[2015-11-14 02:55:18] [+] GET /securityTest.html => /home/ne0h/Dropbox/Web/fbelanger_C30_A02/app/public/errors/404.html from 127.0.0.1
-[2015-11-14 02:55:18] [-] 404 - File not Found for GET /securityTest.html from 127.0.0.1
-[2015-11-14 02:55:18] [+] GET /securityTest.html => /home/ne0h/Dropbox/Web/fbelanger_C30_A02/app/public/errors/404.html from 127.0.0.1
-[2015-11-14 02:55:19] [-] 404 - File not Found for GET /securityTest.html from 127.0.0.1
-[2015-11-14 02:55:19] [+] GET /securityTest.html => /home/ne0h/Dropbox/Web/fbelanger_C30_A02/app/public/errors/404.html from 127.0.0.1
-[2015-11-14 02:55:24] [+] GET / => /home/ne0h/Dropbox/Web/fbelanger_C30_A02/app/public/index.html from 127.0.0.1
-[2015-11-14 02:55:26] [+] GET / => /home/ne0h/Dropbox/Web/fbelanger_C30_A02/app/public/index.html from 127.0.0.1
-[2015-11-14 02:55:27] [+] GET / => /home/ne0h/Dropbox/Web/fbelanger_C30_A02/app/public/index.html from 127.0.0.1
-[2015-11-14 02:55:28] [+] GET / => /home/ne0h/Dropbox/Web/fbelanger_C30_A02/app/public/index.html from 127.0.0.1
+[2015-11-14 05:33:34] [*] Server started on http://localhost:9000
+[2015-11-14 05:35:08] [*] Server started on http://localhost:9000
+[2015-11-14 05:35:10] [-] 404 - File not Found for GET /users from 127.0.0.1
+[2015-11-14 05:35:10] [+] GET /users => /home/ne0h/Dropbox/Web/fbelanger_C30_A02/app/public/errors/404.html from 127.0.0.1
+[2015-11-14 05:50:44] [*] Server started on http://localhost:9000
+[2015-11-14 05:52:52] [*] Server started on http://localhost:9000
+[2015-11-14 05:53:02] [*] Server started on http://localhost:9000
+[2015-11-14 05:55:07] [*] Server started on http://localhost:9000
+[2015-11-14 05:56:00] [*] Server started on http://localhost:9000
+[2015-11-14 05:56:05] [*] Server started on http://localhost:9000
+[2015-11-14 05:56:23] [*] Server started on http://localhost:9000
+[2015-11-14 05:59:14] [*] Server started on http://localhost:9000
+[2015-11-14 06:01:51] [*] Server started on http://localhost:9000
+[2015-11-14 06:06:24] [*] Server started on http://localhost:9000
+[2015-11-14 06:06:26] [+] GET / => /home/ne0h/Dropbox/Web/fbelanger_C30_A02/app/public/index.html from 127.0.0.1
+[2015-11-14 06:07:07] [*] Server started on http://localhost:9000
+[2015-11-14 06:07:09] [+] GET / => /home/ne0h/Dropbox/Web/fbelanger_C30_A02/app/public/index.html from 127.0.0.1
+[2015-11-14 06:07:19] [+] GET / => /home/ne0h/Dropbox/Web/fbelanger_C30_A02/app/public/index.html from 127.0.0.1
+[2015-11-14 06:10:00] [-] 406 - Unsuppoerted Extension for GET /a.ht from 127.0.0.1
+[2015-11-14 06:10:00] [+] GET /a.ht => /home/ne0h/Dropbox/Web/fbelanger_C30_A02/app/public/errors/406.html from 127.0.0.1
