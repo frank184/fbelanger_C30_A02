@@ -1,0 +1,32 @@
+[2015-11-18 01:46:54] [*] Server started on http://localhost:9000
+[2015-11-18 01:46:57] [-] 406 - Unsuppoerted Extension for GET /test.json from 127.0.0.1
+[2015-11-18 01:46:57] [+] GET /test.json => /home/ne0h/Desktop/node-native-router/public/errors/406.html from 127.0.0.1
+[2015-11-18 01:46:57] [+] GET /favicon.ico => /home/ne0h/Desktop/node-native-router/public/favicon.ico from 127.0.0.1
+[2015-11-18 01:47:47] [*] Server started on http://localhost:9000
+[2015-11-18 01:47:48] [+] GET /test.json => /home/ne0h/Desktop/node-native-router/public/test.json from 127.0.0.1
+[2015-11-18 01:47:49] [+] GET /favicon.ico => /home/ne0h/Desktop/node-native-router/public/favicon.ico from 127.0.0.1
+[2015-11-18 01:50:29] [+] GET /test.json => /home/ne0h/Desktop/node-native-router/public/test.json from 127.0.0.1
+[2015-11-18 01:50:30] [+] GET /favicon.ico => /home/ne0h/Desktop/node-native-router/public/favicon.ico from 127.0.0.1
+[2015-11-18 01:51:43] [*] Server started on http://localhost:9000
+[2015-11-18 01:51:45] [+] GET /test.json => /home/ne0h/Desktop/node-native-router/public/test.json from 127.0.0.1
+[2015-11-18 01:51:45] [+] GET /favicon.ico => /home/ne0h/Desktop/node-native-router/public/favicon.ico from 127.0.0.1
+[2015-11-18 01:54:16] [+] GET /test.json => /home/ne0h/Desktop/node-native-router/public/test.json from 127.0.0.1
+[2015-11-18 01:54:17] [+] GET /favicon.ico => /home/ne0h/Desktop/node-native-router/public/favicon.ico from 127.0.0.1
+[2015-11-18 02:02:02] [*] Server started on http://localhost:9000
+[2015-11-18 02:02:08] [+] GET /test.json => /home/ne0h/Desktop/node-native-router/public/test.json from ::ffff:127.0.0.1
+[2015-11-18 02:02:09] [+] GET /favicon.ico => /home/ne0h/Desktop/node-native-router/public/favicon.ico from ::ffff:127.0.0.1
+[2015-11-18 02:02:27] [+] GET / => {"GET":{}} from ::ffff:127.0.0.1
+[2015-11-18 02:02:27] [+] GET / => /home/ne0h/Desktop/node-native-router/public/index.html from ::ffff:127.0.0.1
+[2015-11-18 02:02:28] [+] GET /favicon.ico => /home/ne0h/Desktop/node-native-router/public/favicon.ico from ::ffff:127.0.0.1
+[2015-11-18 02:02:32] [+] GET /test.json => /home/ne0h/Desktop/node-native-router/public/test.json from ::ffff:127.0.0.1
+[2015-11-18 02:02:33] [+] GET /favicon.ico => /home/ne0h/Desktop/node-native-router/public/favicon.ico from ::ffff:127.0.0.1
+[2015-11-18 02:04:57] [*] Server started on http://localhost:9000
+[2015-11-18 02:04:58] [+] GET /index.html => /home/ne0h/Desktop/node-native-router/public/index.html from ::ffff:127.0.0.1
+[2015-11-18 02:04:59] [+] GET /favicon.ico => /home/ne0h/Desktop/node-native-router/public/favicon.ico from ::ffff:127.0.0.1
+[2015-11-18 02:05:05] [+] GET /TestXML.xml => /home/ne0h/Desktop/node-native-router/public/TestXML.xml from ::ffff:127.0.0.1
+[2015-11-18 02:05:06] [+] GET /favicon.ico => /home/ne0h/Desktop/node-native-router/public/favicon.ico from ::ffff:127.0.0.1
+[2015-11-18 02:05:24] [+] GET /test.json => /home/ne0h/Desktop/node-native-router/public/test.json from ::ffff:127.0.0.1
+[2015-11-18 02:05:25] [+] GET /favicon.ico => /home/ne0h/Desktop/node-native-router/public/favicon.ico from ::ffff:127.0.0.1
+[2015-11-18 02:06:18] [*] Server started on http://localhost:9000
+[2015-11-18 02:06:18] [+] GET /test.json => /home/ne0h/Desktop/node-native-router/public/test.json from ::ffff:127.0.0.1
+[2015-11-18 02:06:19] [+] GET /favicon.ico => /home/ne0h/Desktop/node-native-router/public/favicon.ico from ::ffff:127.0.0.1

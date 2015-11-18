@@ -11,7 +11,7 @@ var log = require('./log');
 var users = require('./controllers/users');
 
 // Router
-router.extensions(".html", ".css", ".js", ".png", ".jpg", ".gif", ".xml", ".txt", ".ico");
+router.extensions(".html", ".css", ".js", ".png", ".jpg", ".gif", ".xml", ".txt", ".ico", ".json");
 router.set("GET", "/", function(request, response) {
   router.public("index.html", request, response);
 });
