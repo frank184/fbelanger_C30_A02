@@ -7,7 +7,7 @@ var fs = require('fs');
 var log = require('./log');
 
 // Paths
-var errors_folder = path.join(__dirname, "..", "public", "errors");
+var errors_folder = path.join(__dirname, "public", "errors");
 
 // Exports
 var statusCodes = {

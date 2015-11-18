@@ -5,8 +5,8 @@ var fs = require('fs');
 
 // Custom Modules
 var handler = require('./handler');
-var error = require('./error');
-var log = require('./log');
+var error = require('../error');
+var log = require('../log');
 
 var extensions = [];
 var routes = {};

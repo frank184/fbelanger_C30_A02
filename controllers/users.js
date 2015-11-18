@@ -2,7 +2,7 @@
 var qs = require('querystring');
 
 // Custom Modules
-var error = require('../router/error');
+var error = require('../error');
 
 // Models
 var User = require('../models/user');

@@ -5,7 +5,7 @@ var fs = require('fs');
 
 // Custom Modules
 var router = require('./router');
-var log = require('./router/log');
+var log = require('./log');
 
 // Controllers
 var users = require('./controllers/users');

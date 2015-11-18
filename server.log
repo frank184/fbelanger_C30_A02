@@ -1,0 +1,12 @@
+[2015-11-16 21:53:38] [*] Server started on http://localhost:9000
+[2015-11-16 21:53:45] [+] GET / => {"GET":{}} from ::1
+[2015-11-16 21:53:45] [+] GET / => H:\fbelanger_C30_A02\app\public\index.html from ::1
+[2015-11-16 21:53:45] [+] GET /favicon.ico => H:\fbelanger_C30_A02\app\public\favicon.ico from ::1
+[2015-11-16 21:58:37] [*] Server started on http://localhost:9000
+[2015-11-16 21:58:44] [+] GET / => H:\fbelanger_C30_A02\app\public\index.html from ::1
+[2015-11-16 21:58:44] [+] GET / => {"GET":{}} from ::1
+[2015-11-16 21:58:44] [+] GET /favicon.ico => H:\fbelanger_C30_A02\app\public\favicon.ico from ::1
+[2015-11-16 21:58:47] [-] 404 - File not Found for GET /asdasd from ::1
+[2015-11-16 21:58:47] [+] GET /asdasd => undefined from ::1
+[2015-11-16 21:58:47] [+] GET /asdasd => H:\fbelanger_C30_A02\app\public\errors\404.html from ::1
+[2015-11-16 21:58:47] [+] GET /favicon.ico => H:\fbelanger_C30_A02\app\public\favicon.ico from ::1
